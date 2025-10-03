@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reapers Scrapyard - Employee Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- START: Firebase SDK and Configuration -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, query, where, orderBy, serverTimestamp, Timestamp, getDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+      
+      // *** ACTION REQUIRED: YOUR FIREBASE CONFIG GOES HERE ***
+      const firebaseConfig = {
+        apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q",
+        authDomain: "reapersscrapyard.firebaseapp.com",
+        projectId: "reapersscrapyard",
+        storageBucket: "reapersscrapyard.firebasestorage.app",
+        messagingSenderId: "306469396173",
+        appId: "1:306469396173:web:040acb36b262fd70239384"
+      };
+
+      try {
+        const app = initializeApp(firebaseConfig);
+        window.db = getFirestore(app);
+        window.firestoreFunctions = { collection, addDoc, getDocs, doc, updateDoc, query, where, orderBy, serverTimestamp, Timestamp, getDoc };
+        window.isFirebaseReady = true; 
+        const firebaseReadyEvent = new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } });
+        document.dispatchEvent(firebaseReadyEvent);
+      } catch (error) {
+        window.isFirebaseReady = false; 
+        const firebaseErrorEvent = new CustomEvent('firebaseError', { detail: { error: error } });
+        document.dispatchEvent(firebaseErrorEvent);
+      }
+    </script>
+    <!-- END: Firebase SDK -->
+
+    <script defer src="utility.js"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loading-content"><div class="spinner"></div><p>Loading Portal...</p></div>
+    </div>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="logo-container"><img src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Logo"></button>
+            <div class="dropdown-content">
+                <a href="index.html">Employee Portal</a>
+                <a href="manager.html">Manager Portal</a>
+                <a href="ads.html">Scrapyard Ads</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content-wrapper">
+        <header><img class="header-logo" src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Header"></header>
+
+        <div id="employee-login-container" class="content-block" style="max-width: 450px;">
+            <h1>Employee Access</h1>
+            <form id="employee-login-form">
+                <div class="form-group">
+                    <label for="employee-password">Enter Access Password:</label>
+                    <input type="password" id="employee-password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-error" class="error-message" style="display: none;">Invalid Password.</p>
+        </div>
+
+        <div id="employee-content" class="content-block" style="display: none; max-width: 900px;">
+            <h1>Time Clock</h1>
+            <div class="form-group">
+                <label for="employee-select">Select Your Name:</label>
+                <select id="employee-select"><option value="">-- Please Select --</option></select>
+            </div>
+            <div id="time-clock-interface" style="display: none;">
+                <div id="time-clock-status" class="status-box">You are currently clocked out.</div>
+                <div id="time-clock-controls">
+                    <button id="clock-in-btn" class="action-button clock-in-btn" disabled>Clock In</button>
+                    <button id="clock-out-btn" class="action-button clock-out-btn" style="display: none;">Clock Out</button>
+                </div>
+                <p id="clock-out-message" class="success-message" style="display: none;"></p>
+            </div>
+            <hr>
+            <h1>POS Calculator</h1>
+            <div class="pos-controls">
+                <button id="pos-buy-mode-btn" class="action-button pos-mode-btn active">Buy</button>
+                <button id="pos-sell-mode-btn" class="action-button pos-mode-btn">Sell</button>
+                <br>
+                <div class="checkbox-group" style="display: inline-flex; margin-left: 20px;">
+                    <input type="checkbox" id="crew-discount-checkbox">
+                    <label for="crew-discount-checkbox">Apply Crew Discount</label>
+                </div>
+            </div>
+            <p id="pos-mode-status" style="margin-top: 10px;">Currently in <strong>Sell Mode</strong></p>
+            <div id="pos-items-container" class="pos-grid"></div>
+            <div class="calculator-actions"><button id="clear-pos-btn" class="action-button clear-button">Clear Cart</button></div>
+            
+            <!-- NEW: Cart Container -->
+            <div id="cart-container" style="display: none;">
+                <h3>Current Cart</h3>
+                <div id="cart-items"></div>
+            </div>
+            
+            <h1 class="total-display">Total: <span id="pos-total">$0.00</span></h1>
+            <button id="checkout-pos-btn" class="action-button">Checkout</button>
+            <p id="pos-status-message" style="display: none;"></p>
+        </div> 
+    </div> 
+    
+    <footer>
+        <p>Website designed by Preston Stone / Lilcrash15.</p>
+        <p>To be used by Reapers Scrapyard on BLRP only.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reapers Scrapyard - Manager Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- START: Firebase SDK and Configuration -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+      
+      // *** ACTION REQUIRED: YOUR FIREBASE CONFIG GOES HERE ***
+      const firebaseConfig = {
+        apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q",
+        authDomain: "reapersscrapyard.firebaseapp.com",
+        projectId: "reapersscrapyard",
+        storageBucket: "reapersscrapyard.firebasestorage.app",
+        messagingSenderId: "306469396173",
+        appId: "1:306469396173:web:040acb36b262fd70239384"
+      };
+
+      try {
+        const app = initializeApp(firebaseConfig);
+        window.db = getFirestore(app);
+        window.firestoreFunctions = { collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc };
+        window.isFirebaseReady = true; 
+        const firebaseReadyEvent = new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } });
+        document.dispatchEvent(firebaseReadyEvent);
+      } catch (error) {
+        window.isFirebaseReady = false; 
+        const firebaseErrorEvent = new CustomEvent('firebaseError', { detail: { error: error } });
+        document.dispatchEvent(firebaseErrorEvent);
+      }
+    </script>
+    <!-- END: Firebase SDK -->
+
+    <script defer src="utility.js"></script>
+    <script defer src="manager.js"></script>
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loading-content"><div class="spinner"></div><p>Loading Manager Portal...</p></div>
+    </div>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="logo-container"><img src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Logo"></button>
+            <div class="dropdown-content">
+                <a href="index.html">Employee Portal</a>
+                <a href="manager.html">Manager Portal</a>
+                <a href="ads.html">Scrapyard Ads</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content-wrapper">
+        <header><img class="header-logo" src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Header"></header>
+
+        <div id="manager-login-container" class="content-block" style="max-width: 450px;">
+            <h1>Manager Access</h1>
+            <form id="manager-login-form">
+                <div class="form-group">
+                    <label for="manager-password">Enter Manager Password:</label>
+                    <input type="password" id="manager-password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p id="manager-login-error" class="error-message" style="display: none;">Invalid Manager Password.</p>
+        </div>
+
+        <div id="manager-content" style="display: none; width: 100%; max-width: 1100px;">
+            <div id="employee-management-section" class="content-block">
+                <h2>Manage Employees</h2>
+                <form id="employee-form">
+                    <h3 id="employee-form-title" style="text-align: center;">Add New Employee</h3>
+                    <input type="hidden" id="edit-employee-id">
+                    <div class="form-group"><label for="employee-name">Full Name:</label><input type="text" id="employee-name" placeholder="John Doe" required></div>
+                    <div class="form-group"><label for="employee-id-number">Player ID (F6):</label><input type="text" id="employee-id-number" placeholder="e.g., 12345" required></div>
+                    <div class="form-group"><label for="employee-dl-number">DL Number:</label><input type="text" id="employee-dl-number" placeholder="e.g., 1234567" required></div>
+                    <div class="form-group"><label for="employee-bank-info">Bank Info:</label><input type="text" id="employee-bank-info" placeholder="e.g., 123-456" required></div>
+                    <div class="form-buttons">
+                        <button type="submit" id="save-employee-btn" class="action-button">Add Employee</button>
+                        <button type="button" id="cancel-edit-btn" class="action-button clear-button" style="display:none;">Cancel Edit</button>
+                    </div>
+                </form>
+                <hr>
+                <h3>Current Employees</h3>
+                <div id="employee-list" class="log-container"><p><i>Loading employees...</i></p></div>
+            </div>
+
+            <div id="password-management-section" class="content-block">
+                <h2>Manage Passwords</h2>
+                <form id="employee-password-form">
+                    <div class="form-group">
+                        <label for="new-employee-password">Employee Password:</label>
+                        <input type="text" id="new-employee-password" required>
+                        <br>
+                        <button type="submit" class="action-button">Update</button>
+                    </div>
+                </form>
+                <p id="employee-password-status" style="display: none;"></p>
+                <form id="manager-password-form">
+                     <div class="form-group">
+                        <label for="new-manager-password">Manager Password:</label>
+                        <input type="text" id="new-manager-password" required>
+                        <button type="submit" class="action-button">Update</button>
+                    </div>
+                </form>
+                <p id="manager-password-status" style="display: none;"></p>
+            </div>
+
+            <div id="transaction-log-section" class="content-block">
+                <h2>POS Transaction Logs</h2>
+                <button id="export-transactions-btn" class="action-button" style="margin-bottom: 20px;">Export Transactions to CSV</button>
+                <div id="transaction-log-display" class="log-container"><p><i>Loading transaction logs...</i></p></div>
+            </div>
+
+            <div id="time-log-section" class="content-block">
+                <h2>Employee Time Logs</h2>
+                <button id="export-time-logs-btn" class="action-button" style="margin-bottom: 20px;">Export Time Logs to CSV</button>
+                <div id="time-log-display" class="log-container"><p><i>Loading time logs...</i></p></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Website designed by Preston Stone / Lilcrash15.</p>
+        <p>To be used by Reapers Scrapyard on BLRP only.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reapers Scrapyard - Ads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="logo-container"><img src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Logo"></button>
+            <div class="dropdown-content">
+                <a href="index.html">Employee Portal</a>
+                <a href="manager.html">Manager Portal</a>
+                <a href="ads.html">Scrapyard Ads</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content-wrapper">
+        <header><img class="header-logo" src="https://i.ibb.co/gZZQq196/logo.png" alt="Reapers Header"></header>
+
+        <div id="ads-content" class="content-block" style="max-width: 800px;">
+            <h1>Scrapyard Ads</h1>
+            
+            <!-- Dropdown Filter -->
+            <div class="form-group">
+                <label for="ad-category-select">Select Ad Category:</label>
+                <select id="ad-category-select">
+                    <option value="OPEN">Open Ads</option>
+                    <option value="CLOSING/CLOSED">Closing Ads</option>
+                </select>
+            </div>
+            
+            <p style="margin-top: 20px;">Click on an ad below to copy it to your clipboard.</p>
+            
+            <div id="ads-list">
+                <!-- Ads will be injected here by ads.js -->
+            </div>
+        </div>
+    </div> 
+    
+    <footer>
+        <p>Website designed by Preston Stone / Lilcrash15.</p>
+        <p>To be used by Reapers Scrapyard on BLRP only.</p>
+    </footer>
+
+    <!-- JS Files -->
+    <script defer src="utility.js"></script>
+    <script defer src="ads.js"></script>
+</body>
+</html>

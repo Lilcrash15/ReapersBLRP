@@ -1,0 +1,219 @@
+/* === Global Resets & Base === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; }
+body { background: linear-gradient(135deg, #098ae6, #062f5b); color: white; min-height: 100vh; background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+.page-content-wrapper { width: 100%; max-width: 1140px; margin: 0 auto; padding: 120px 20px 40px; display: flex; flex-direction: column; align-items: center; }
+a { text-decoration: none; color: #098ae6; }
+hr { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.15), rgba(255,255,255,0)); margin: 30px 0; }
+footer { text-align: center; margin-top: 40px; color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; }
+
+/* === Loading Screen === */
+#loading-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(26, 26, 46, 0.98); z-index: 10005; display: flex; justify-content: center; align-items: center; transition: opacity 0.5s ease; opacity: 1; }
+#loading-overlay.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+.loading-content { text-align: center; color: #f0f0f0; }
+.loading-content p { margin-top: 20px; font-size: 1.2rem; }
+.spinner { width: 60px; height: 60px; border: 6px solid rgba(9, 138, 230, 0.3); border-top-color: #098ae6; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* === Navbar & Header === */
+.navbar { position: fixed; top: 15px; left: 15px; z-index: 10002; }
+.dropdown { position: relative; display: inline-block; }
+.logo-container { width: 90px; height: 90px; border-radius: 50%; background-color: rgba(23, 23, 38, 0.9); border: 2px solid #098ae6; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: background-color 0.2s; }
+.logo-container:hover { background-color: rgba(40, 40, 60, 0.9); }
+.logo-container img { max-width: 200%; max-height: 200%; }
+.dropdown-content { display: none; position: absolute; background-color: #171726; border: 1px solid #333; border-radius: 6px; min-width: 200px; box-shadow: 0 8px 16px rgba(0,0,0,0.5); z-index: 1; top: 100%; left: 0; padding: 8px 0; margin-top: 5px; }
+.dropdown-content.visible { display: block; } /* NEW: For JS control */
+.dropdown-content a { color: #f0f0f0; padding: 12px 20px; display: block; text-align: center; }
+.dropdown-content a:hover { background-color: #098ae6; color: #fff; }
+header { margin-bottom: 30px; }
+.header-logo { max-width: 300px; height: auto; }
+
+/* === Content & Forms === */
+.content-block { background-color: rgba(23, 23, 38, 0.9); padding: 30px; border-radius: 10px; border: 1px solid #333; width: 100%; text-align: center; margin-bottom: 20px; }
+h1 { font-size: 2rem; margin-bottom: 25px; color: #098ae6; }
+h2 { font-size: 1.6rem; margin-bottom: 20px; border-bottom: 1px solid #444; padding-bottom: 10px; }
+h3 { font-size: 1.3rem; margin-bottom: 15px; text-align: left; }
+form { display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto; }
+.form-group { text-align: left; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 500; }
+.form-group input[type="text"], .form-group input[type="password"], .form-group input[type="number"], .form-group select { width: 100%; padding: 12px; border-radius: 6px; border: 1px solid #555; background-color: #1a1a2e; color: #f0f0f0; font-size: 1rem; }
+.checkbox-group { display: flex; align-items: center; justify-content: flex-start; gap: 10px; padding: 10px 0; }
+.checkbox-group input[type="checkbox"] { width: 20px; height: 20px; accent-color: #098ae6; }
+.form-buttons { display: flex; gap: 10px; justify-content: flex-start; margin-top: 10px; }
+.error-message { color: #e74c3c; font-weight: bold; margin-top: 15px; }
+.success-message { color: #2ecc71; font-weight: bold; margin-top: 15px; }
+.total-display { color: #2ecc71; font-size: 1.8rem; margin-top: 20px; }
+
+/* === Buttons === */
+button, .action-button { padding: 12px 25px; font-size: 1rem; font-weight: 600; color: #fff; background-color: #098ae6; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.2s, transform 0.1s; }
+button:hover, .action-button:hover { background-color: #2b9eff; transform: translateY(-1px); }
+button:disabled { background-color: #555 !important; color: #888 !important; cursor: not-allowed; transform: none; }
+.clear-button { background-color: #777; }
+.clear-button:hover { background-color: #888; }
+.clock-in-btn { background-color: #27ae60; }
+.clock-in-btn:hover { background-color: #2ecc71; }
+.clock-out-btn { background-color: #c0392b; }
+.clock-out-btn:hover { background-color: #e74c4c; }
+.pos-mode-btn { background-color: #098ae6; margin: 0 5px; }
+.pos-mode-btn.active { background-color: #0772c4; border: 2px solid #f0f0f0; }
+.pos-mode-btn:hover { background-color: #2b9eff; }
+
+/* === Specific Components === */
+.status-box { background-color: rgba(10, 10, 20, 0.7); padding: 15px; border-radius: 8px; font-size: 1.1rem; margin: 20px 0; }
+#time-clock-controls { margin-bottom: 15px; display: flex; justify-content: center; gap: 15px;}
+.log-container { max-height: 400px; overflow-y: auto; border: 1px solid #444; border-radius: 8px; background-color: rgba(10, 10, 20, 0.5); padding: 10px; text-align: left; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #444; }
+th { background-color: #171726; text-align: left; }
+tr:nth-child(even) { background-color: rgba(40, 40, 60, 0.3); }
+#employee-list .employee-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-bottom: 1px solid #444; }
+#employee-list .employee-item:last-child { border-bottom: none; }
+.pos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; margin-bottom: 20px; }
+.pos-item { background-color: rgb(54, 54, 54); border: 1px solid #555; border-radius: 8px; padding: 15px; display: flex; flex-direction: column; align-items: center; text-align: center; cursor: pointer; transition: transform 0.2s, background-color 0.2s; }
+.pos-item:hover { transform: translateY(-3px); background-color: rgba(50, 50, 70, 0.7); }
+.pos-item img { width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px; pointer-events: none; }
+.pos-item p { font-weight: 500; margin-bottom: 10px; pointer-events: none; }
+.pos-item input.pos-quantity { background-color: transparent; border: transparent; color: white; font-size: medium; padding: 8px; width: 70px; text-align: center; cursor: initial; }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; appearance: textfield; }
+
+/* NEW: Employee Select Centering */
+#employee-select {
+    text-align: center;
+    text-align-last: center; /* This targets the selected option */
+}
+#employee-select option {
+    text-align: left; /* Keep options left-aligned for readability */
+}
+
+/* 1. Adds padding to the manager page's password update buttons */
+#password-management-section .form-group button { 
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+/* 2. Styles for the cart item strikethrough effect */
+.cart-item.checked-off {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+/* 3. Rule to center the text in the employee dropdown */
+#employee-select {
+    text-align: center;
+    text-align-last: center; /* This targets the selected option */
+}
+
+#employee-select option {
+    text-align: left; /* This keeps the dropdown options aligned left */
+}
+/* Adds space between the 'Edit' and 'Remove' buttons on the manager page */
+#employee-list .employee-actions {
+    display: flex;
+    gap: 8px; /* You can change this number to increase/decrease the space */
+}
+
+/* Changes the 'Remove' employee button to be red */
+#employee-list .remove-btn {
+    background-color: #c0392b; /* A standard, clear red */
+}
+
+/* Changes the color when the user hovers over the red button */
+#employee-list .remove-btn:hover {
+    background-color: #e74c3c; /* A slightly brighter red for feedback */
+}
+
+/* =================================== */
+/* === Ads Page - Redesigned Styles === */
+/* =================================== */
+
+/* The main container for the ads content */
+#ads-content .form-group {
+    max-width: 350px;
+    margin: 0 auto 25px auto; /* Centers the dropdown and adds space below */
+}
+
+/* The list that will hold the ad items */
+#ads-list { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; /* Creates space between each ad item */
+    text-align: left; 
+    margin-top: 25px;
+}
+
+/* An individual ad item that can be clicked */
+.ad-item { 
+    background-color: rgba(40, 40, 60, 0.7); 
+    border: 1px solid #555; 
+    border-radius: 8px; 
+    padding: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.2s, transform 0.1s; 
+}
+
+/* Hover effect for an ad item */
+.ad-item:hover { 
+    background-color: rgba(60, 60, 80, 0.9);
+    transform: translateY(-2px);
+}
+
+/* The text of the ad itself */
+.ad-item p { 
+    margin: 0; 
+    font-size: 1.1rem; /* Slightly larger text */
+    line-height: 1.5;
+    white-space: pre-wrap; 
+    word-break: break-all; 
+    color: #f0f0f0; /* Brighter text color */
+}
+
+/* The "Copied!" message that appears after clicking */
+.ad-copy-message { 
+    font-size: 0.9rem; 
+    color: #2ecc71; /* Green success color */
+    font-weight: bold;
+    margin-top: 10px; 
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out; 
+    height: 0; /* Occupies no space when hidden */
+}
+
+/* Makes the "Copied!" message visible when the 'copied' class is added */
+.ad-item.copied .ad-copy-message {
+    opacity: 1;
+    height: auto;
+}
+/* =================================== */
+/* === Ads Page - Scroll Container === */
+/* =================================== */
+
+/* This turns the #ads-list div into a scrollable container */
+#ads-list {
+    max-height: 450px; /* You can change this value to make the box taller or shorter */
+    overflow-y: auto; /* Adds a vertical scrollbar ONLY when needed */
+    padding: 15px;    /* Adds some internal spacing so ads don't touch the edges */
+    border: 1px solid #444; /* Adds a subtle border around the scroll area */
+    border-radius: 8px; /* Rounds the corners of the scroll area */
+    background-color: rgba(10, 10, 20, 0.5); /* A slightly darker background for contrast */
+}
+
+/* Optional: Style the scrollbar for a more integrated look (for Chrome/Safari/Edge) */
+#ads-list::-webkit-scrollbar {
+    width: 10px;
+}
+
+#ads-list::-webkit-scrollbar-track {
+    background: rgba(10, 10, 20, 0.5);
+    border-radius: 10px;
+}
+
+#ads-list::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+#ads-list::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
