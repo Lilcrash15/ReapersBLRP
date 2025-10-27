@@ -8,30 +8,28 @@
 
     <!-- Firebase SDK (Your config goes here) -->
     <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-        import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-        const firebaseConfig = {
-          apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q",
-          authDomain: "reapersscrapyard.firebaseapp.com",
-          projectId: "reapersscrapyard",
-          storageBucket: "reapersscrapyard.firebasestorage.app",
-          messagingSenderId: "306469396173",
-          appId: "1:306469396173:web:040acb36b262fd70239384"
-        };
-  
-        try {
-          const app = initializeApp(firebaseConfig);
-          window.db = getFirestore(app);
-          window.firestoreFunctions = { collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc };
-          window.isFirebaseReady = true; 
-          const firebaseReadyEvent = new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } });
-          document.dispatchEvent(firebaseReadyEvent);
-        } catch (error) {
-          window.isFirebaseReady = false; 
-          const firebaseErrorEvent = new CustomEvent('firebaseError', { detail: { error: error } });
-          document.dispatchEvent(firebaseErrorEvent);
-        }
-      </script>
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getFirestore, collection, addDoc, getDocs, doc, query, orderBy, serverTimestamp, getDoc, updateDoc, where } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+            const firebaseConfig = {
+        apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q",
+        authDomain: "reapersscrapyard.firebaseapp.com",
+        projectId: "reapersscrapyard",
+        storageBucket: "reapersscrapyard.firebasestorage.app",
+        messagingSenderId: "306469396173",
+        appId: "1:306469396173:web:040acb36b262fd70239384"
+      };
+      try {
+        const app = initializeApp(firebaseConfig);
+        window.db = getFirestore(app);
+        window.firestoreFunctions = { collection, addDoc, getDocs, doc, query, orderBy, serverTimestamp, getDoc, updateDoc, where };
+        window.isFirebaseReady = true; 
+        document.dispatchEvent(new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } }));
+      } catch (error) {
+        window.isFirebaseReady = false; 
+        document.dispatchEvent(new CustomEvent('firebaseError', { detail: { error: error } }));
+      }
+
+    </script>
 
     <script defer src="utility.js"></script>
     <script defer src="main.js"></script>
@@ -43,7 +41,7 @@
 
     <div class="navbar">
         <div class="dropdown">
-            <button class="logo-container"><img src="logo.png" alt="Reapers Logo"></button>
+            <button class="logo-container"><img src="https://i.imgur.com/rE7Xb7G.png" alt="Reapers Logo"></button>
             <div class="dropdown-content">
                 <a href="index.html">Employee Portal</a>
                 <a href="manager.html">Manager Portal</a>
@@ -53,7 +51,7 @@
     </div>
 
     <div class="page-content-wrapper">
-        <header><img class="header-logo" src="logo.png" alt="Reapers Header"></header>
+        <header><img class="header-logo" src="https://i.imgur.com/rE7Xb7G.png" alt="Reapers Header"></header>
 
         <div id="employee-login-container" class="content-block" style="max-width: 450px;">
             <h1>Employee Access</h1>
@@ -103,10 +101,8 @@
                 </div>
                 <!-- SELLING GRID -->
                 <div class="pos-section">
-                    <!-- This is the container for the title and checkbox -->
                     <div class="pos-section-header">
                         <h2>SELLING</h2>
-                        <!-- The Crew Discount checkbox is now here -->
                         <div class="checkbox-group">
                             <input type="checkbox" id="crew-discount-checkbox">
                             <label for="crew-discount-checkbox">Crew Discount</label>
@@ -117,11 +113,10 @@
             </div>
 
             <!-- Cart and Actions -->
-            <div id="cart-container" style="display: none;"><h3>Current Cart</h3><div id="cart-items"></div></div>
-            <br>
-            <div class="calculator-actions"><button id="clear-pos-btn" class="action-button clear-button">Clear All</button></div>
-            <br>
-            <button id="checkout-pos-btn" class="action-button">Checkout</button>
+            <div class="actions-footer">
+                <button id="clear-pos-btn" class="action-button clear-button">Clear All</button>
+                <button id="checkout-pos-btn" class="action-button">Log Transaction</button>
+            </div>
             <p id="pos-status-message" style="display: none;"></p>
         </div> 
     </div> 

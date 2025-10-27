@@ -1,1 +1,418 @@
-const _0x3fb884=_0x5c9e;(function(_0x52922d,_0x186c95){const _0x34b95c=_0x5c9e,_0x1f9ed5=_0x52922d();while(!![]){try{const _0x32938d=-parseInt(_0x34b95c(0x1d6))/0x1+parseInt(_0x34b95c(0x1ab))/0x2+-parseInt(_0x34b95c(0x235))/0x3+-parseInt(_0x34b95c(0x206))/0x4*(parseInt(_0x34b95c(0x239))/0x5)+-parseInt(_0x34b95c(0x1ce))/0x6*(parseInt(_0x34b95c(0x1f3))/0x7)+-parseInt(_0x34b95c(0x1d8))/0x8+parseInt(_0x34b95c(0x189))/0x9;if(_0x32938d===_0x186c95)break;else _0x1f9ed5['push'](_0x1f9ed5['shift']());}catch(_0x316929){_0x1f9ed5['push'](_0x1f9ed5['shift']());}}}(_0x1d12,0x7422e));function _0x5c9e(_0x23f6f5,_0x30d458){const _0x1d125a=_0x1d12();return _0x5c9e=function(_0x5c9e99,_0x3e7a16){_0x5c9e99=_0x5c9e99-0x17c;let _0x5c9b47=_0x1d125a[_0x5c9e99];return _0x5c9b47;},_0x5c9e(_0x23f6f5,_0x30d458);}function _0x1d12(){const _0x12cdb4=['login-error','Completed','options','https://i.ibb.co/yBMZs29m/02MavXA.png','hidden','warn','docs','Raw\x20Aluminum','Platinum','employee-select','serverTimestamp','<img\x20src=\x22','https://i.ibb.co/8nwXSq0N/fe630d0b158d0010cdc10955d5a5d4fd.png','name','checkout-pos-btn','reload','cart-item-sell','Plastic','dataset','quantity','https://i.ibb.co/RkqpJf9Q/L5mjuqa.png','https://i.ibb.co/mxkNvR2/5y5y9xH.png','crewPrice','where','USB','Gold\x20Nugget','https://i.ibb.co/RrVg1Rn/22a0832b9623cce6fd9163b4004096a2.png','Active','from','addDoc','find','474qqqmtu','toLocaleTimeString','classList','toDate','forEach','text','Raw\x20Iron','Error\x20loading\x20employees:','745571FIxlDK','div','5735952zlUWlg','function','siteSettings','clock-in-btn','Please\x20select\x20an\x20employee.','https://i.ibb.co/GfpFGpBr/Nc4J3LZ.png','pos-status-message','DEV_MODE\x20is\x20ACTIVE.\x20Bypassing\x20Firebase.','https://i.ibb.co/hFG56HGb/0392ffdaf5fca9dc7fc01f0e15c6d7e2.png','sell','https://i.ibb.co/k6S4b4rV/H76dHfB.png','input','buyPrice','selectedIndex','cart-container','https://i.ibb.co/N6SdDMPy/z5VGoAM.png','query','doc','Critical\x20Error:\x20Firebase\x20failed\x20to\x20load.\x20','location','Customer\x20Pays\x20You','time-clock-status','value','Raw\x20Platinum','https://i.ibb.co/23hwdZfV/wCEMXGc.png','click','block','44107ZVPQHS','https://i.ibb.co/Ng3W9jDh/4vWSZjH.png','Electronic\x20Parts','https://i.ibb.co/WJtwr3q/20f4d3e110accb46988d7d5f38c0731f.png','Iron','Charcoal','Copper\x20Coils','cart-item-buy','https://i.ibb.co/YrJmxKw/lBs09we.png','collection','detail','#pos-main-container','pos-sell-grid','image','loading-overlay','net-total-label','https://i.ibb.co/mrDXWJvc/zltxjaw.png','inline-block','https://i.ibb.co/Qvh1dHwX/1x09ls2.png','51472wpDYqV','timeEntries','https://i.ibb.co/LXgDkRts/Q1ILiNq.png','You\x20are\x20currently\x20<strong>clocked\x20out</strong>.','crew-discount-checkbox','Glue','https://i.ibb.co/20rdky31/a12e199106903c26b49cc218878e396f.png','\x22><p>','createElement','Steel','https://i.ibb.co/207Xyjbc/gVC6rSU.png','firebaseError','Gadgets','buy','Gears','https://i.ibb.co/1gwdtSd/ik2Vi08.png','Could\x20not\x20fetch\x20password,\x20using\x20default.','Gold\x20Ingot','sell-total-display','Circuit\x20Board','Cart\x20is\x20empty.','map','stopPropagation','\x20-\x20$','You\x20Pay\x20Customer','dispatchEvent','checked','employee','updateDoc','sellPrice','getDocs','status','change','querySelectorAll','Gold\x20Rolex','Refined\x20Oil','Non-Act\x20Phones','orderBy','checked-off','querySelector','firebaseReady','https://i.ibb.co/0pmvFsWy/UVwJJ8q.png','https://i.ibb.co/zHRFGKSB/82MkBJH.png','employee-content','Error\x20logging\x20transaction.','Glass\x20Shards','abs','1382121pqvztu','#pos-sell-grid\x20.pos-quantity','https://i.ibb.co/ZzDNZbq3/7CHGvfz.png','addEventListener','110FLWDko','https://i.ibb.co/C5QJdyTB/gAqq55p.png','You\x20are\x20currently\x20<strong>clocked\x20in</strong>\x20since\x20','cart-items','https://i.ibb.co/Kcpy03Jn/QvYaPA8.png','https://i.ibb.co/qMzsFQCK/4SVFNZX.png','toggle','data','Error\x20clocking\x20out:','display','color','employees','length','filter','getElementById','Transaction\x20logged\x20successfully!','20535417tqfkrX','Firebase\x20event\x20listener\x20may\x20have\x20failed.\x20Forcing\x20app\x20initialization.','pos-item','<option\x20value=\x22\x22>--\x20Please\x20Select\x20--</option>','en-US','appendChild','https://i.ibb.co/VpwxTLzc/HXpK19t.png','https://i.ibb.co/G3rFG26d/f3c58a89e3853f2b745b9211eb1a9d70.png','https://i.ibb.co/vxH29hJv/61LFJyE.png','textContent','#pos-buy-grid\x20.pos-quantity','Raw\x20Steel','Error\x20logging\x20transaction:','</p><input\x20type=\x22number\x22\x20class=\x22pos-quantity\x22\x20min=\x220\x22\x20placeholder=\x220\x22\x20data-name=\x22','parentNode','\x20-\x20','time-clock-interface','Steel\x20Pipes','innerHTML','.pos-quantity','add','#2ecc71','Raw\x20Titanium','isFirebaseReady','style','preventDefault','Trash\x20Bags','toLocaleString','Car\x20Battery','error','none','https://i.ibb.co/4Z8BGfrL/3Fo91fO.png','clock-out-btn','passwords','1796256UYYALk','https://i.ibb.co/xKxd362n/qASNkQw.png','toUpperCase','Titanium'];_0x1d12=function(){return _0x12cdb4;};return _0x1d12();}const DEV_MODE=![];document[_0x3fb884(0x238)]('DOMContentLoaded',()=>{const _0x96095d=_0x3fb884,_0x1ee2bc=document[_0x96095d(0x187)](_0x96095d(0x201)),_0x58ae04=document['getElementById'](_0x96095d(0x231));if(!_0x58ae04){console['error']('FATAL\x20ERROR:\x20The\x20\x27#employee-content\x27\x20div\x20was\x20not\x20found\x20in\x20the\x20HTML.\x20The\x20script\x20cannot\x20continue.');if(_0x1ee2bc)_0x4af7e9();return;}const _0x580acc=[{'name':'AA\x20Battery','buyPrice':0x5,'sellPrice':0xa,'crewPrice':0x8,'image':_0x96095d(0x230)},{'name':'Aluminum','buyPrice':0x28,'sellPrice':0x32,'crewPrice':0x2d,'image':_0x96095d(0x237)},{'name':'Angle\x20Grinder','buyPrice':0x3a98,'sellPrice':0x4e20,'crewPrice':0x4650,'image':_0x96095d(0x190)},{'name':_0x96095d(0x1a5),'buyPrice':0x7d0,'sellPrice':0x9c4,'crewPrice':0x8fc,'image':_0x96095d(0x20c)},{'name':'Cat\x20Converter','buyPrice':0x1194,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x1c9)},{'name':_0x96095d(0x1f8),'buyPrice':0x1,'sellPrice':0x2,'crewPrice':0x2,'image':'https://i.ibb.co/xqpsm01p/Xladhqc.png'},{'name':_0x96095d(0x219),'buyPrice':0x1388,'sellPrice':0x1770,'crewPrice':0x157c,'image':_0x96095d(0x1fb)},{'name':'Copper','buyPrice':0xa,'sellPrice':0x14,'crewPrice':0xf,'image':_0x96095d(0x17e)},{'name':_0x96095d(0x1f9),'buyPrice':0x4b,'sellPrice':0x5a,'crewPrice':0x55,'image':_0x96095d(0x203)},{'name':'Duct\x20Tape','buyPrice':0x1e,'sellPrice':0x28,'crewPrice':0x23,'image':_0x96095d(0x1e2)},{'name':_0x96095d(0x1f5),'buyPrice':0xf,'sellPrice':0x14,'crewPrice':0x12,'image':_0x96095d(0x1f6)},{'name':_0x96095d(0x212),'buyPrice':0x96,'sellPrice':0xc8,'crewPrice':0xaf,'image':_0x96095d(0x1b2)},{'name':_0x96095d(0x214),'buyPrice':0x7d,'sellPrice':0x87,'crewPrice':0x82,'image':_0x96095d(0x1a8)},{'name':_0x96095d(0x233),'buyPrice':0xf,'sellPrice':0x14,'crewPrice':0x12,'image':_0x96095d(0x1ac)},{'name':_0x96095d(0x20b),'buyPrice':0x1e,'sellPrice':0x28,'crewPrice':0x23,'image':'https://i.ibb.co/B5xJBSmv/wm6Niky.png'},{'name':_0x96095d(0x217),'buyPrice':0x41,'sellPrice':0x4b,'crewPrice':0x46,'image':'https://i.ibb.co/Hpzk8GYN/2ae704eb5d0758bc93abe3865b25d6b0.png'},{'name':_0x96095d(0x1c8),'buyPrice':0x20,'sellPrice':0x0,'crewPrice':0x0,'image':'https://i.ibb.co/cKjVx0Gb/RLe0m4d.png'},{'name':_0x96095d(0x228),'buyPrice':0x4b0,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x1e0)},{'name':_0x96095d(0x1f7),'buyPrice':0x3c,'sellPrice':0x46,'crewPrice':0x41,'image':_0x96095d(0x1e7)},{'name':'Nitrate','buyPrice':0x3c,'sellPrice':0x46,'crewPrice':0x41,'image':_0x96095d(0x1c4)},{'name':_0x96095d(0x22a),'buyPrice':0xfa,'sellPrice':0x12c,'crewPrice':0x113,'image':'https://i.ibb.co/4RW6q0RD/AOxwcXE.png'},{'name':'Oil','buyPrice':0x42,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x191)},{'name':_0x96095d(0x1c0),'buyPrice':0x4b,'sellPrice':0x55,'crewPrice':0x50,'image':_0x96095d(0x1f4)},{'name':_0x96095d(0x1b7),'buyPrice':0x7d,'sellPrice':0x96,'crewPrice':0x8c,'image':'https://i.ibb.co/p6c8r8gm/SBjIOt5.png'},{'name':_0x96095d(0x1b6),'buyPrice':0x14,'sellPrice':0x0,'crewPrice':0x0,'image':'https://i.ibb.co/QvwKHjhZ/EkQK3gE.png'},{'name':'Raw\x20Cobalt','buyPrice':0x1f4,'sellPrice':0x2ee,'crewPrice':0x28a,'image':_0x96095d(0x1bb)},{'name':_0x96095d(0x1d4),'buyPrice':0x1e,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x22f)},{'name':_0x96095d(0x1ef),'buyPrice':0x3e,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x1dd)},{'name':_0x96095d(0x194),'buyPrice':0x20,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x205)},{'name':_0x96095d(0x19f),'buyPrice':0x25,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x1c3)},{'name':_0x96095d(0x229),'buyPrice':0xc8,'sellPrice':0x12c,'crewPrice':0xfa,'image':_0x96095d(0x215)},{'name':'Springs','buyPrice':0x50,'sellPrice':0x5a,'crewPrice':0x55,'image':_0x96095d(0x18f)},{'name':_0x96095d(0x20f),'buyPrice':0x41,'sellPrice':0x4b,'crewPrice':0x46,'image':_0x96095d(0x210)},{'name':_0x96095d(0x19a),'buyPrice':0x64,'sellPrice':0x6e,'crewPrice':0x69,'image':_0x96095d(0x1f0)},{'name':_0x96095d(0x1ae),'buyPrice':0x4b,'sellPrice':0x55,'crewPrice':0x50,'image':_0x96095d(0x17d)},{'name':_0x96095d(0x1a3),'buyPrice':0xaf,'sellPrice':0x0,'crewPrice':0x0,'image':_0x96095d(0x23a)},{'name':_0x96095d(0x1c7),'buyPrice':0x7d0,'sellPrice':0x9c4,'crewPrice':0x8ca,'image':_0x96095d(0x208)},{'name':'Wood','buyPrice':0xf,'sellPrice':0x14,'crewPrice':0x12,'image':'https://i.ibb.co/YBphgzXJ/3010EPd.png'}];let _0x45bcdd,_0x319a94,_0x15d074=null,_0x3ae8f6='changeme';const _0x385a82=document['getElementById']('employee-login-container'),_0x46b68c=document[_0x96095d(0x187)]('employee-login-form'),_0x3247cf=document[_0x96095d(0x187)]('employee-password'),_0x15b14a=document[_0x96095d(0x187)](_0x96095d(0x1af)),_0x539ba6=document[_0x96095d(0x187)](_0x96095d(0x1b8)),_0x25bf38=document['getElementById'](_0x96095d(0x199)),_0x25f1ad=document[_0x96095d(0x187)](_0x96095d(0x1ed)),_0xb75f0e=document['getElementById'](_0x96095d(0x1db)),_0x54d4aa=document[_0x96095d(0x187)](_0x96095d(0x1a9)),_0x39a2d4=document[_0x96095d(0x187)]('clock-out-message'),_0x1eeac2=document[_0x96095d(0x187)]('buy-total-display'),_0x4f86e8=document['getElementById'](_0x96095d(0x218)),_0x45abf9=document[_0x96095d(0x187)]('net-total-display'),_0x2b99e8=document[_0x96095d(0x187)](_0x96095d(0x202)),_0x468270=document['getElementById']('pos-buy-grid'),_0x378dbd=document[_0x96095d(0x187)](_0x96095d(0x1ff)),_0x320e21=document['getElementById']('clear-pos-btn'),_0x3326bd=document['getElementById'](_0x96095d(0x1bd)),_0x9f9e0c=document['getElementById'](_0x96095d(0x1de)),_0x6ce61=document['getElementById'](_0x96095d(0x1e6)),_0x1e2270=document[_0x96095d(0x187)](_0x96095d(0x17c)),_0x36ded7=document[_0x96095d(0x187)](_0x96095d(0x20a)),_0x4af7e9=()=>{const _0x1c5618=_0x96095d;_0x1ee2bc&&(_0x1ee2bc[_0x1c5618(0x1d0)]['add'](_0x1c5618(0x1b3)),setTimeout(()=>{const _0x92967d=_0x1c5618;_0x1ee2bc['parentNode']&&_0x1ee2bc[_0x92967d(0x197)]['removeChild'](_0x1ee2bc);},0x1f4));},_0x1b425e=_0xcc4da5=>{const _0x53567f=_0x96095d;_0x385a82[_0x53567f(0x1a1)][_0x53567f(0x182)]=_0xcc4da5?_0x53567f(0x1a7):_0x53567f(0x1f2),_0x58ae04[_0x53567f(0x1a1)][_0x53567f(0x182)]=_0xcc4da5?_0x53567f(0x1f2):'none',_0xcc4da5&&typeof addLogoutButton===_0x53567f(0x1d9)&&addLogoutButton();},_0x3f4ebb=async()=>{const _0x21325e=_0x96095d;try{const _0x96ef5c=_0x319a94[_0x21325e(0x1e8)](_0x319a94[_0x21325e(0x1fc)](_0x45bcdd,_0x21325e(0x184)),_0x319a94[_0x21325e(0x22b)](_0x21325e(0x1bc))),_0x2464ad=await _0x319a94[_0x21325e(0x224)](_0x96ef5c);_0x539ba6['innerHTML']=_0x21325e(0x18c),_0x2464ad['forEach'](_0x436c42=>{const _0x24e135=_0x21325e,_0x4152fa=_0x436c42[_0x24e135(0x180)](),_0xe3d6ef=new Option(''+_0x4152fa[_0x24e135(0x1bc)],_0x436c42['id']);_0x539ba6[_0x24e135(0x18e)](_0xe3d6ef);});}catch(_0x35a547){console['error'](_0x21325e(0x1d5),_0x35a547),alert('Could\x20not\x20load\x20employees\x20from\x20the\x20database.');}},_0x170e7d=async _0x32b827=>{const _0x5ee2c9=_0x96095d;if(!_0x32b827){_0x25bf38[_0x5ee2c9(0x1a1)]['display']=_0x5ee2c9(0x1a7);return;}_0x25bf38[_0x5ee2c9(0x1a1)][_0x5ee2c9(0x182)]=_0x5ee2c9(0x1f2),_0x39a2d4[_0x5ee2c9(0x1a1)]['display']=_0x5ee2c9(0x1a7);const _0x15300c=_0x319a94[_0x5ee2c9(0x1e8)](_0x319a94[_0x5ee2c9(0x1fc)](_0x45bcdd,_0x5ee2c9(0x207)),_0x319a94[_0x5ee2c9(0x1c6)]('employeeId','==',_0x32b827),_0x319a94['where'](_0x5ee2c9(0x225),'==',_0x5ee2c9(0x1ca))),_0x3ab23e=await _0x319a94[_0x5ee2c9(0x224)](_0x15300c);if(!_0x3ab23e['empty']){const _0x27c8de=_0x3ab23e[_0x5ee2c9(0x1b5)][0x0],_0x11fa79=_0x27c8de['data']()['clockInTime'][_0x5ee2c9(0x1d1)]();_0x15d074=_0x27c8de['id'],_0x25f1ad['innerHTML']=_0x5ee2c9(0x23b)+_0x11fa79[_0x5ee2c9(0x1cf)](),_0xb75f0e[_0x5ee2c9(0x1a1)][_0x5ee2c9(0x182)]=_0x5ee2c9(0x1a7),_0x54d4aa[_0x5ee2c9(0x1a1)][_0x5ee2c9(0x182)]=_0x5ee2c9(0x204);}else _0x15d074=null,_0x25f1ad[_0x5ee2c9(0x19b)]=_0x5ee2c9(0x209),_0xb75f0e['style']['display']=_0x5ee2c9(0x204),_0x54d4aa[_0x5ee2c9(0x1a1)][_0x5ee2c9(0x182)]='none';_0xb75f0e['disabled']=![];},_0x2a3122=async()=>{const _0x14041a=_0x96095d,_0x419897=_0x539ba6[_0x14041a(0x1ee)];if(!_0x419897)return;try{await _0x319a94[_0x14041a(0x1cc)](_0x319a94[_0x14041a(0x1fc)](_0x45bcdd,_0x14041a(0x207)),{'employeeId':_0x419897,'employeeName':_0x539ba6['options'][_0x539ba6[_0x14041a(0x1e5)]]['text'],'clockInTime':_0x319a94[_0x14041a(0x1b9)](),'status':_0x14041a(0x1ca)}),_0x170e7d(_0x419897);}catch(_0x3e90a4){console[_0x14041a(0x1a6)]('Error\x20clocking\x20in:',_0x3e90a4);}},_0xff5207=async()=>{const _0x5aa00f=_0x96095d;if(!_0x15d074)return;try{const _0x2430c4=_0x319a94[_0x5aa00f(0x1e9)](_0x45bcdd,_0x5aa00f(0x207),_0x15d074);await _0x319a94[_0x5aa00f(0x222)](_0x2430c4,{'clockOutTime':_0x319a94['serverTimestamp'](),'status':_0x5aa00f(0x1b0)});if(typeof showStatusMessage===_0x5aa00f(0x1d9))showStatusMessage(_0x39a2d4,'Successfully\x20clocked\x20out!',!![]);_0x170e7d(_0x539ba6[_0x5aa00f(0x1ee)]);}catch(_0x43dc94){console[_0x5aa00f(0x1a6)](_0x5aa00f(0x181),_0x43dc94);}},_0x31592e=()=>{const _0x4026f0=_0x96095d;if(!_0x468270||!_0x378dbd)return;_0x468270[_0x4026f0(0x19b)]='',_0x378dbd[_0x4026f0(0x19b)]='',_0x580acc[_0x4026f0(0x1d2)](_0x2cd1b4=>{const _0x36ead1=_0x4026f0;if(_0x2cd1b4[_0x36ead1(0x1e4)]>0x0){const _0x1284e1=_0x2608f2(_0x2cd1b4,_0x36ead1(0x213));_0x468270['appendChild'](_0x1284e1);}if(_0x2cd1b4[_0x36ead1(0x223)]>0x0){const _0x1b133e=_0x2608f2(_0x2cd1b4,_0x36ead1(0x1e1));_0x378dbd[_0x36ead1(0x18e)](_0x1b133e);}});},_0x2608f2=(_0xa8ff92,_0x396680)=>{const _0x395ba9=_0x96095d,_0x41ff53=_0x36ded7?.[_0x395ba9(0x220)]&&_0x396680===_0x395ba9(0x1e1)&&_0xa8ff92[_0x395ba9(0x1c5)]>0x0;let _0x263642;_0x396680===_0x395ba9(0x213)?_0x263642=_0xa8ff92[_0x395ba9(0x1e4)]:_0x263642=_0x41ff53?_0xa8ff92[_0x395ba9(0x1c5)]:_0xa8ff92[_0x395ba9(0x223)];const _0x2ff158=document[_0x395ba9(0x20e)](_0x395ba9(0x1d7));_0x2ff158['className']=_0x395ba9(0x18b),_0x2ff158['innerHTML']=_0x395ba9(0x1ba)+_0xa8ff92[_0x395ba9(0x200)]+'\x22\x20alt=\x22'+_0xa8ff92[_0x395ba9(0x1bc)]+_0x395ba9(0x20d)+_0xa8ff92[_0x395ba9(0x1bc)]+_0x395ba9(0x21d)+_0x263642['toLocaleString']()+_0x395ba9(0x196)+_0xa8ff92[_0x395ba9(0x1bc)]+'\x22\x20data-type=\x22'+_0x396680+'\x22>',_0x2ff158[_0x395ba9(0x238)]('click',()=>{const _0x5dd150=_0x395ba9,_0xc7632=_0x2ff158[_0x5dd150(0x22d)](_0x5dd150(0x19c));let _0x239200=parseInt(_0xc7632[_0x5dd150(0x1ee)])||0x0;_0xc7632['value']=_0x239200+0x1,_0xc7632[_0x5dd150(0x21f)](new Event(_0x5dd150(0x1e3),{'bubbles':!![]}));});const _0x4f3c6c=_0x2ff158[_0x395ba9(0x22d)]('.pos-quantity');return _0x4f3c6c[_0x395ba9(0x238)](_0x395ba9(0x1f1),_0x185fb2=>_0x185fb2[_0x395ba9(0x21c)]()),_0x2ff158;},_0x1433f6=()=>{const _0x336794=_0x96095d;let _0x316fe8=0x0,_0x3e7d54=0x0;const _0xf1dce4=_0x36ded7?.[_0x336794(0x220)];document[_0x336794(0x227)](_0x336794(0x193))[_0x336794(0x1d2)](_0x218bf8=>{const _0x39f8cd=_0x336794,_0x13db17=_0x580acc[_0x39f8cd(0x1cd)](_0x569b5b=>_0x569b5b[_0x39f8cd(0x1bc)]===_0x218bf8['dataset'][_0x39f8cd(0x1bc)]);_0x13db17&&(_0x316fe8+=(parseInt(_0x218bf8[_0x39f8cd(0x1ee)])||0x0)*_0x13db17[_0x39f8cd(0x1e4)]);}),document[_0x336794(0x227)](_0x336794(0x236))['forEach'](_0x5ecdeb=>{const _0x2fbb83=_0x336794,_0x20d41a=_0x580acc[_0x2fbb83(0x1cd)](_0x549589=>_0x549589[_0x2fbb83(0x1bc)]===_0x5ecdeb['dataset'][_0x2fbb83(0x1bc)]);if(_0x20d41a){const _0x4d1ee1=_0xf1dce4&&_0x20d41a['crewPrice']>0x0?_0x20d41a['crewPrice']:_0x20d41a[_0x2fbb83(0x223)];_0x3e7d54+=(parseInt(_0x5ecdeb[_0x2fbb83(0x1ee)])||0x0)*_0x4d1ee1;}});const _0x26e7e4=_0x3e7d54-_0x316fe8;_0x1eeac2[_0x336794(0x192)]='$'+_0x316fe8[_0x336794(0x1a4)]('en-US',{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2}),_0x4f86e8[_0x336794(0x192)]='$'+_0x3e7d54[_0x336794(0x1a4)](_0x336794(0x18d),{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2}),_0x45abf9[_0x336794(0x192)]='$'+Math[_0x336794(0x234)](_0x26e7e4)['toLocaleString'](_0x336794(0x18d),{'minimumFractionDigits':0x2,'maximumFractionDigits':0x2}),_0x26e7e4<0x0?(_0x2b99e8[_0x336794(0x192)]=_0x336794(0x21e),_0x45abf9[_0x336794(0x1a1)][_0x336794(0x183)]='#e74c3c'):(_0x2b99e8[_0x336794(0x192)]=_0x336794(0x1ec),_0x45abf9['style']['color']=_0x336794(0x19e)),_0x320d73();},_0x320d73=()=>{const _0x6cfa6b=_0x96095d;if(!_0x1e2270||!_0x6ce61)return;_0x1e2270[_0x6cfa6b(0x19b)]='';let _0x2245b4=0x0;const _0x42410f=_0x36ded7?.[_0x6cfa6b(0x220)];document['querySelectorAll'](_0x6cfa6b(0x19c))[_0x6cfa6b(0x1d2)](_0x22885c=>{const _0xa88915=_0x6cfa6b,_0x55f00f=parseInt(_0x22885c[_0xa88915(0x1ee)])||0x0;if(_0x55f00f>0x0){_0x2245b4++;const _0x5c66e3=_0x22885c[_0xa88915(0x1c1)]['name'],_0x35299e=_0x22885c['dataset']['type'],_0x5a2389=_0x580acc[_0xa88915(0x1cd)](_0xc90b8d=>_0xc90b8d['name']===_0x5c66e3);if(_0x5a2389){let _0x4763fb;_0x35299e==='sell'?_0x4763fb=_0x42410f&&_0x5a2389[_0xa88915(0x1c5)]>0x0?_0x5a2389['crewPrice']:_0x5a2389[_0xa88915(0x223)]:_0x4763fb=_0x5a2389[_0xa88915(0x1e4)];const _0x3c5a61=_0x55f00f*_0x4763fb,_0x359c28=document[_0xa88915(0x20e)](_0xa88915(0x1d7));_0x359c28['className']='cart-item',_0x359c28['classList'][_0xa88915(0x19d)](_0x35299e===_0xa88915(0x213)?_0xa88915(0x1fa):_0xa88915(0x1bf));const _0x1a3b89='$'+_0x3c5a61['toLocaleString'](_0xa88915(0x18d));_0x359c28[_0xa88915(0x192)]='('+_0x35299e[_0xa88915(0x1ad)]()+')\x20'+_0x55f00f+'x\x20'+_0x5c66e3+_0xa88915(0x198)+_0x1a3b89,_0x359c28['addEventListener'](_0xa88915(0x1f1),()=>_0x359c28[_0xa88915(0x1d0)][_0xa88915(0x17f)](_0xa88915(0x22c))),_0x1e2270[_0xa88915(0x18e)](_0x359c28);}}}),_0x6ce61[_0x6cfa6b(0x1a1)][_0x6cfa6b(0x182)]=_0x2245b4>0x0?'block':_0x6cfa6b(0x1a7);},_0x36f328=()=>{const _0x2f18a8=_0x96095d;document[_0x2f18a8(0x227)](_0x2f18a8(0x19c))[_0x2f18a8(0x1d2)](_0x67baed=>_0x67baed['value']='');if(_0x36ded7)_0x36ded7[_0x2f18a8(0x220)]=![];_0x31592e(),_0x1433f6();},_0x3b3678=async()=>{const _0x4e742a=_0x96095d,_0x5e3a7c=_0x539ba6[_0x4e742a(0x1ee)];if(!_0x5e3a7c){if(typeof showStatusMessage===_0x4e742a(0x1d9))showStatusMessage(_0x9f9e0c,_0x4e742a(0x1dc),![]);return;}const _0x3ae41a=_0x36ded7?.[_0x4e742a(0x220)],_0x5f4971=Array[_0x4e742a(0x1cb)](document[_0x4e742a(0x227)](_0x4e742a(0x193)))[_0x4e742a(0x21b)](_0x4c53b3=>({'name':_0x4c53b3[_0x4e742a(0x1c1)][_0x4e742a(0x1bc)],'quantity':parseInt(_0x4c53b3[_0x4e742a(0x1ee)])||0x0}))['filter'](_0x3c1d60=>_0x3c1d60[_0x4e742a(0x1c2)]>0x0),_0x1f6d75=Array[_0x4e742a(0x1cb)](document['querySelectorAll'](_0x4e742a(0x236)))[_0x4e742a(0x21b)](_0x5ecda5=>({'name':_0x5ecda5[_0x4e742a(0x1c1)][_0x4e742a(0x1bc)],'quantity':parseInt(_0x5ecda5[_0x4e742a(0x1ee)])||0x0}))[_0x4e742a(0x186)](_0x534dff=>_0x534dff[_0x4e742a(0x1c2)]>0x0);if(_0x5f4971[_0x4e742a(0x185)]===0x0&&_0x1f6d75[_0x4e742a(0x185)]===0x0){if(typeof showStatusMessage===_0x4e742a(0x1d9))showStatusMessage(_0x9f9e0c,_0x4e742a(0x21a),![]);return;}const _0xa1aa7=parseFloat(_0x1eeac2[_0x4e742a(0x192)]['replace'](/[$,]/g,'')),_0x5b935d=parseFloat(_0x4f86e8['textContent']['replace'](/[$,]/g,'')),_0x314f72=_0x5b935d-_0xa1aa7;try{await _0x319a94[_0x4e742a(0x1cc)](_0x319a94['collection'](_0x45bcdd,'transactions'),{'employeeId':_0x5e3a7c,'employeeName':_0x539ba6[_0x4e742a(0x1b1)][_0x539ba6[_0x4e742a(0x1e5)]][_0x4e742a(0x1d3)],'createdAt':_0x319a94[_0x4e742a(0x1b9)](),'buyTotal':_0xa1aa7,'sellTotal':_0x5b935d,'netTotal':_0x314f72,'buyItems':_0x5f4971,'sellItems':_0x1f6d75,'crewDiscountApplied':_0x3ae41a});if(typeof showStatusMessage==='function')showStatusMessage(_0x9f9e0c,_0x4e742a(0x188),!![]);_0x36f328();}catch(_0x1ffd84){console['error'](_0x4e742a(0x195),_0x1ffd84);if(typeof showStatusMessage===_0x4e742a(0x1d9))showStatusMessage(_0x9f9e0c,_0x4e742a(0x232),![]);}},_0x914b4=async _0x30aee1=>{const _0x4b47e5=_0x96095d;if(DEV_MODE){console[_0x4b47e5(0x1b4)](_0x4b47e5(0x1df)),_0x1b425e(!![]),_0x31592e(),_0x1433f6(),_0x4af7e9();return;}_0x45bcdd=_0x30aee1['db'],_0x319a94=_0x30aee1['functions'];if(typeof checkEmployeeSession===_0x4b47e5(0x1d9)&&checkEmployeeSession())_0x1b425e(!![]),await _0x3f4ebb();else{_0x1b425e(![]);try{const _0x42c5d4=_0x319a94[_0x4b47e5(0x1e9)](_0x45bcdd,_0x4b47e5(0x1da),_0x4b47e5(0x1aa)),_0x5afbaf=await _0x319a94['getDoc'](_0x42c5d4);if(_0x5afbaf['exists']()&&_0x5afbaf['data']()[_0x4b47e5(0x221)])_0x3ae8f6=_0x5afbaf['data']()['employee'];}catch(_0x5ade43){console[_0x4b47e5(0x1b4)](_0x4b47e5(0x216));}}_0x31592e(),_0x1433f6(),_0x4af7e9();},_0x7dd641=document['querySelector'](_0x96095d(0x1fe));if(_0x7dd641)_0x7dd641[_0x96095d(0x238)](_0x96095d(0x1e3),_0x1433f6);_0x36ded7&&_0x36ded7[_0x96095d(0x238)](_0x96095d(0x226),()=>{_0x31592e(),_0x1433f6();});_0x46b68c[_0x96095d(0x238)]('submit',_0x1eeb2f=>{const _0x29f4e5=_0x96095d;_0x1eeb2f[_0x29f4e5(0x1a2)]();if(_0x3247cf[_0x29f4e5(0x1ee)]===_0x3ae8f6){if(typeof grantEmployeeSession===_0x29f4e5(0x1d9))grantEmployeeSession();window[_0x29f4e5(0x1eb)][_0x29f4e5(0x1be)]();}else _0x15b14a[_0x29f4e5(0x1a1)]['display']=_0x29f4e5(0x1f2);}),_0x320e21[_0x96095d(0x238)](_0x96095d(0x1f1),_0x36f328),_0x3326bd['addEventListener'](_0x96095d(0x1f1),_0x3b3678),_0x539ba6[_0x96095d(0x238)](_0x96095d(0x226),_0x189083=>_0x170e7d(_0x189083['target'][_0x96095d(0x1ee)])),_0xb75f0e[_0x96095d(0x238)]('click',_0x2a3122),_0x54d4aa[_0x96095d(0x238)](_0x96095d(0x1f1),_0xff5207);let _0x496440=![];const _0x5f562c=()=>{const _0x13fcb9=_0x96095d;if(_0x496440)return;_0x496440=!![];if(DEV_MODE){_0x914b4();return;}const _0x27f09d=_0x1ad9be=>{const _0x2e5c92=_0x5c9e;_0x914b4(_0x1ad9be?_0x1ad9be[_0x2e5c92(0x1fd)]:{'db':window['db'],'functions':window['firestoreFunctions']});};window[_0x13fcb9(0x1a0)]?_0x27f09d():document['addEventListener'](_0x13fcb9(0x22e),_0x27f09d);};document[_0x96095d(0x238)](_0x96095d(0x211),_0x485a16=>{const _0x523a04=_0x96095d;!_0x496440&&(alert(_0x523a04(0x1ea)+_0x485a16[_0x523a04(0x1fd)]?.['error']?.['message']),_0x4af7e9());}),_0x5f562c(),setTimeout(()=>{const _0x25d82a=_0x96095d;!_0x496440&&(console['warn'](_0x25d82a(0x18a)),_0x5f562c());},0xbb8);});
+// --- DEVELOPER BACKDOOR ---
+// Set to 'true' to bypass Firebase and see the UI immediately for styling.
+// Set to 'false' for normal operation with a live database.
+const DEV_MODE = false;
+// ---
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- Constant Data & Elements ---
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const employeeContent = document.getElementById('employee-content');
+    
+    if (!employeeContent) {
+        console.error("FATAL ERROR: The '#employee-content' div was not found in the HTML. The script cannot continue.");
+        if(loadingOverlay) hideLoadingScreen();
+        return;
+    }
+
+    const itemData = [
+            { name: "AA Battery", buyPrice: 5, sellPrice: 10, crewPrice: 8 },
+            { name: "Aluminum", buyPrice: 40, sellPrice: 50, crewPrice: 45 },
+            { name: "Angle Grinder", buyPrice: 15000, sellPrice: 20000, crewPrice: 18000 },
+            { name: "Car Battery", buyPrice: 2000, sellPrice: 2500, crewPrice: 2300 },
+            { name: "Cat Converter", buyPrice: 4500, sellPrice: 0, crewPrice: 0 },
+            { name: "Charcoal", buyPrice: 1, sellPrice: 2, crewPrice: 2 },
+            { name: "Circuit Board", buyPrice: 5000, sellPrice: 6000, crewPrice: 5500 },
+            { name: "Copper", buyPrice: 10, sellPrice: 20, crewPrice: 15 },
+            { name: "Copper Coils", buyPrice: 75, sellPrice: 90, crewPrice: 85 },
+            { name: "Duct Tape", buyPrice: 30, sellPrice: 40, crewPrice: 35 },
+            { name: "Electronic Parts", buyPrice: 15, sellPrice: 20, crewPrice: 18 },
+            { name: "Gadgets", buyPrice: 150, sellPrice: 200, crewPrice: 175 },
+            { name: "Gears", buyPrice: 125, sellPrice: 135, crewPrice: 130 },
+            { name: "Glass Shards", buyPrice: 15, sellPrice: 20, crewPrice: 18 },
+            { name: "Glue", buyPrice: 30, sellPrice: 40, crewPrice: 35 },
+            { name: "Gold Ingot", buyPrice: 65, sellPrice: 75, crewPrice: 70 },
+            { name: "Gold Nugget", buyPrice: 32, sellPrice: 0, crewPrice: 0 },
+            { name: "Gold Rolex", buyPrice: 1200, sellPrice: 0, crewPrice: 0 },
+            { name: "Iron", buyPrice: 60, sellPrice: 70, crewPrice: 65 },
+            { name: "Nitrate", buyPrice: 60, sellPrice: 70, crewPrice: 65 },
+            { name: "Non-Act Phones", buyPrice: 250, sellPrice: 300, crewPrice: 275 },
+            { name: "Oil", buyPrice: 66, sellPrice: 0, crewPrice: 0 },
+            { name: "Plastic", buyPrice: 75, sellPrice: 85, crewPrice: 80 },
+            { name: "Platinum", buyPrice: 125, sellPrice: 150, crewPrice: 140 },
+            { name: "Raw Aluminum", buyPrice: 20, sellPrice: 0, crewPrice: 0 },
+            { name: "Raw Cobalt", buyPrice: 500, sellPrice: 750, crewPrice: 650 },
+            { name: "Raw Iron", buyPrice: 30, sellPrice: 0, crewPrice: 0 },
+            { name: "Raw Platinum", buyPrice: 62, sellPrice: 0, crewPrice: 0 },
+            { name: "Raw Steel", buyPrice: 32, sellPrice: 0, crewPrice: 0 },
+            { name: "Raw Titanium", buyPrice: 37, sellPrice: 0, crewPrice: 0 },
+            { name: "Refined Oil", buyPrice: 200, sellPrice: 300, crewPrice: 250 },
+            { name: "Springs", buyPrice: 80, sellPrice: 90, crewPrice: 85 },
+            { name: "Steel", buyPrice: 65, sellPrice: 75, crewPrice: 70 },
+            { name: "Steel Pipes", buyPrice: 100, sellPrice: 110, crewPrice: 105 },
+            { name: "Titanium", buyPrice: 75, sellPrice: 85, crewPrice: 80 },
+            { name: "Trash Bags", buyPrice: 175, sellPrice: 0, crewPrice: 0 },
+            { name: "USB", buyPrice: 2000, sellPrice: 2500, crewPrice: 2250 },
+            { name: "Wood", buyPrice: 15, sellPrice: 20, crewPrice: 18 }
+        ];
+
+    // Sort the item data alphabetically on page load
+    itemData.sort((a, b) => a.name.localeCompare(b.name));
+
+    let db, firestoreFunctions;
+    let currentClockInId = null;
+    let employeePassword = "changeme";
+
+    const loginContainer = document.getElementById('employee-login-container');
+    const loginForm = document.getElementById('employee-login-form');
+    const passwordInput = document.getElementById('employee-password');
+    const loginError = document.getElementById('login-error');
+    const employeeSelect = document.getElementById('employee-select');
+    const timeClockInterface = document.getElementById('time-clock-interface');
+    const statusBox = document.getElementById('time-clock-status');
+    const clockInBtn = document.getElementById('clock-in-btn');
+    const clockOutBtn = document.getElementById('clock-out-btn');
+    const clockOutMessage = document.getElementById('clock-out-message');
+    
+    const buyTotalDisplay = document.getElementById('buy-total-display');
+    const sellTotalDisplay = document.getElementById('sell-total-display');
+    const netTotalDisplay = document.getElementById('net-total-display');
+    const netTotalLabel = document.getElementById('net-total-label');
+    
+    const posBuyGrid = document.getElementById('pos-buy-grid');
+    const posSellGrid = document.getElementById('pos-sell-grid');
+    
+    const clearPosBtn = document.getElementById('clear-pos-btn');
+    const checkoutPosBtn = document.getElementById('checkout-pos-btn');
+    const posStatusMessage = document.getElementById('pos-status-message');
+    
+    const cartContainer = document.getElementById('cart-container');
+    const cartItemsDiv = document.getElementById('cart-items');
+    const crewDiscountCheckbox = document.getElementById('crew-discount-checkbox');
+
+    const hideLoadingScreen = () => {
+        if (loadingOverlay) {
+            loadingOverlay.classList.add('hidden');
+            setTimeout(() => { if (loadingOverlay.parentNode) { loadingOverlay.parentNode.removeChild(loadingOverlay); } }, 500);
+        }
+    };
+
+    const updateView = (isLoggedIn) => {
+        loginContainer.style.display = isLoggedIn ? 'none' : 'block';
+        employeeContent.style.display = isLoggedIn ? 'block' : 'none';
+        if (isLoggedIn && typeof addLogoutButton === 'function') {
+            addLogoutButton();
+        }
+    };
+
+    const loadEmployees = async () => {
+        try {
+            const q = firestoreFunctions.query(firestoreFunctions.collection(db, "employees"), firestoreFunctions.orderBy("name"));
+            const snapshot = await firestoreFunctions.getDocs(q);
+            employeeSelect.innerHTML = '<option value="">-- Please Select --</option>';
+            snapshot.forEach(doc => {
+                const emp = doc.data();
+                const option = new Option(`${emp.name} (ID: ${emp.idNumber})`, doc.id);
+                employeeSelect.appendChild(option);
+            });
+        } catch (error) { console.error("Error loading employees:", error); alert("Could not load employees from the database."); }
+    };
+
+    const checkClockInStatus = async (employeeId) => {
+        if (!employeeId) { timeClockInterface.style.display = 'none'; return; }
+        timeClockInterface.style.display = 'block';
+        clockOutMessage.style.display = 'none';
+        const q = firestoreFunctions.query(firestoreFunctions.collection(db, "timeEntries"), firestoreFunctions.where("employeeId", "==", employeeId), firestoreFunctions.where("status", "==", "Active"));
+        const snapshot = await firestoreFunctions.getDocs(q);
+        if (!snapshot.empty) {
+            const activeEntry = snapshot.docs[0];
+            const clockInTime = activeEntry.data().clockInTime.toDate();
+            currentClockInId = activeEntry.id;
+            statusBox.innerHTML = `You are currently <strong>clocked in</strong> since ${clockInTime.toLocaleTimeString()}`;
+            clockInBtn.style.display = 'none';
+            clockOutBtn.style.display = 'inline-block';
+        } else {
+            currentClockInId = null;
+            statusBox.innerHTML = `You are currently <strong>clocked out</strong>.`;
+            clockInBtn.style.display = 'inline-block';
+            clockOutBtn.style.display = 'none';
+        }
+        clockInBtn.disabled = false;
+    };
+
+    const clockIn = async () => {
+        const employeeId = employeeSelect.value;
+        if (!employeeId) return;
+        try {
+            await firestoreFunctions.addDoc(firestoreFunctions.collection(db, "timeEntries"), { employeeId: employeeId, employeeName: employeeSelect.options[employeeSelect.selectedIndex].text, clockInTime: firestoreFunctions.serverTimestamp(), status: "Active" });
+            checkClockInStatus(employeeId);
+        } catch (error) { console.error("Error clocking in:", error); }
+    };
+
+    const clockOut = async () => {
+        if (!currentClockInId) return;
+        try {
+            const docRef = firestoreFunctions.doc(db, "timeEntries", currentClockInId);
+            await firestoreFunctions.updateDoc(docRef, { clockOutTime: firestoreFunctions.serverTimestamp(), status: "Completed" });
+            if (typeof showStatusMessage === 'function') showStatusMessage(clockOutMessage, "Successfully clocked out!", true);
+            checkClockInStatus(employeeSelect.value);
+        } catch (error) { console.error("Error clocking out:", error); }
+    };
+
+    const createPosItem = (item, type) => {
+        const isDiscounted = crewDiscountCheckbox?.checked && type === 'sell' && item.crewPrice > 0;
+        let price;
+        if (type === 'buy') {
+            price = item.buyPrice;
+        } else {
+            price = isDiscounted ? item.crewPrice : item.sellPrice;
+        }
+
+        const itemEl = document.createElement('div');
+        itemEl.className = 'pos-item'; 
+        
+        itemEl.innerHTML = `
+            <span class="item-name">${item.name}</span>
+            <span class="item-price">$${price.toLocaleString()}</span>
+            <input type="number" class="pos-quantity item-qty-input" min="0" placeholder="0" data-name="${item.name}" data-type="${type}">
+        `;
+        
+        return itemEl;
+    };
+
+    const renderGrids = () => {
+        if (!posBuyGrid || !posSellGrid) return;
+
+        const quantities = new Map();
+        document.querySelectorAll('.pos-quantity').forEach(input => {
+            if(input.value && parseInt(input.value) > 0){
+                quantities.set(input.dataset.name + '-' + input.dataset.type, input.value);
+            }
+        });
+
+        posBuyGrid.innerHTML = '';
+        posSellGrid.innerHTML = '';
+
+        itemData.forEach(item => {
+            if (item.buyPrice > 0) {
+                const buyItemEl = createPosItem(item, 'buy');
+                const savedQty = quantities.get(item.name + '-buy');
+                if(savedQty) buyItemEl.querySelector('.pos-quantity').value = savedQty;
+                posBuyGrid.appendChild(buyItemEl);
+            }
+        });
+
+        itemData.forEach(item => {
+            if (item.sellPrice > 0) {
+                const sellItemEl = createPosItem(item, 'sell');
+                const savedQty = quantities.get(item.name + '-sell');
+                if(savedQty) sellItemEl.querySelector('.pos-quantity').value = savedQty;
+                posSellGrid.appendChild(sellItemEl);
+            }
+        });
+    };
+
+    const calculateTotals = () => {
+        let buyTotal = 0;
+        let sellTotal = 0;
+        const isCrewDiscountActive = crewDiscountCheckbox?.checked;
+
+        document.querySelectorAll('#pos-buy-grid .pos-quantity').forEach(input => {
+            const item = itemData.find(i => i.name === input.dataset.name);
+            if (item) {
+                buyTotal += (parseInt(input.value) || 0) * item.buyPrice;
+            }
+        });
+
+        document.querySelectorAll('#pos-sell-grid .pos-quantity').forEach(input => {
+            const item = itemData.find(i => i.name === input.dataset.name);
+            if (item) {
+                const price = (isCrewDiscountActive && item.crewPrice > 0) ? item.crewPrice : item.sellPrice;
+                sellTotal += (parseInt(input.value) || 0) * price;
+            }
+        });
+
+        const netTotal = sellTotal - buyTotal;
+
+        buyTotalDisplay.textContent = `$${buyTotal.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        sellTotalDisplay.textContent = `$${sellTotal.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        netTotalDisplay.textContent = `$${Math.abs(netTotal).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+
+        if (netTotal < 0) {
+            netTotalLabel.textContent = "You Pay Customer";
+            netTotalDisplay.style.color = "#e74c3c";
+        } else {
+            netTotalLabel.textContent = "Customer Pays You";
+            netTotalDisplay.style.color = "#2ecc71";
+        }
+        
+        updateCartDisplay();
+    };
+
+    const updateCartDisplay = () => {
+        if (!cartItemsDiv || !cartContainer) return;
+        cartItemsDiv.innerHTML = '';
+        let itemsInCart = 0;
+        const isCrewDiscountActive = crewDiscountCheckbox?.checked;
+        
+        document.querySelectorAll('.pos-quantity').forEach(input => {
+            const quantity = parseInt(input.value) || 0;
+            if (quantity > 0) {
+                itemsInCart++;
+                const itemName = input.dataset.name;
+                const type = input.dataset.type;
+                const item = itemData.find(i => i.name === itemName);
+
+                if (item) {
+                    let price;
+                    if (type === 'sell') {
+                        price = (isCrewDiscountActive && item.crewPrice > 0) ? item.crewPrice : item.sellPrice;
+                    } else {
+                        price = item.buyPrice;
+                    }
+                    const lineTotal = quantity * price;
+
+                    const cartItemEl = document.createElement('div');
+                    cartItemEl.className = 'cart-item';
+                    cartItemEl.classList.add(type === 'buy' ? 'cart-item-buy' : 'cart-item-sell');
+                    const formattedLineTotal = `$${lineTotal.toLocaleString('en-US')}`;
+                    cartItemEl.textContent = `(${type.toUpperCase()}) ${quantity}x ${itemName} - ${formattedLineTotal}`;
+                    cartItemEl.addEventListener('click', () => cartItemEl.classList.toggle('checked-off'));
+                    cartItemsDiv.appendChild(cartItemEl);
+                }
+            }
+        });
+        cartContainer.style.display = (itemsInCart > 0) ? 'block' : 'none';
+    };
+
+    const clearPos = () => {
+        document.querySelectorAll('.pos-quantity').forEach(input => input.value = '');
+        if (crewDiscountCheckbox) crewDiscountCheckbox.checked = false;
+        renderGrids();
+        calculateTotals();
+    };
+
+    const logTransaction = async () => {
+        const employeeId = employeeSelect.value;
+        if (!employeeId) { if(typeof showStatusMessage === 'function') showStatusMessage(posStatusMessage, "Please select an employee.", false); return; }
+
+        const isCrewDiscountActive = crewDiscountCheckbox?.checked;
+        const buyItems = Array.from(document.querySelectorAll('#pos-buy-grid .pos-quantity')).map(i => ({ name: i.dataset.name, quantity: parseInt(i.value) || 0 })).filter(i => i.quantity > 0);
+        const sellItems = Array.from(document.querySelectorAll('#pos-sell-grid .pos-quantity')).map(i => ({ name: i.dataset.name, quantity: parseInt(i.value) || 0 })).filter(i => i.quantity > 0);
+
+        if (buyItems.length === 0 && sellItems.length === 0) { if(typeof showStatusMessage === 'function') showStatusMessage(posStatusMessage, "Cart is empty.", false); return; }
+
+        const buyTotal = parseFloat(buyTotalDisplay.textContent.replace(/[$,]/g, ''));
+        const sellTotal = parseFloat(sellTotalDisplay.textContent.replace(/[$,]/g, ''));
+        const netTotal = sellTotal - buyTotal;
+        
+        try {
+            await firestoreFunctions.addDoc(firestoreFunctions.collection(db, "transactions"), {
+                employeeId,
+                employeeName: employeeSelect.options[employeeSelect.selectedIndex].text,
+                createdAt: firestoreFunctions.serverTimestamp(),
+                buyTotal,
+                sellTotal,
+                netTotal,
+                buyItems,
+                sellItems,
+                crewDiscountApplied: isCrewDiscountActive
+            });
+            if(typeof showStatusMessage === 'function') showStatusMessage(posStatusMessage, "Transaction logged successfully!", true);
+            clearPos();
+        } catch (error) {
+            console.error("Error logging transaction:", error);
+            if(typeof showStatusMessage === 'function') showStatusMessage(posStatusMessage, "Error logging transaction.", false);
+        }
+    };
+
+    const executeMainAppLogic = async (firebaseDetail) => {
+        if (DEV_MODE) {
+            console.warn("DEV_MODE is ACTIVE. Bypassing Firebase.");
+            updateView(true);
+            renderGrids();
+            calculateTotals();
+            hideLoadingScreen();
+            return;
+        }
+        db = firebaseDetail.db;
+        firestoreFunctions = firebaseDetail.functions;
+        if (typeof checkEmployeeSession === 'function' && checkEmployeeSession()) {
+            updateView(true);
+            await loadEmployees();
+        } else {
+            updateView(false);
+            try {
+                const docRef = firestoreFunctions.doc(db, "siteSettings", "passwords");
+                const docSnap = await firestoreFunctions.getDoc(docRef);
+                if (docSnap.exists() && docSnap.data().employee) employeePassword = docSnap.data().employee;
+            } catch (e) { console.warn("Could not fetch password, using default."); }
+        }
+        renderGrids();
+        calculateTotals();
+        hideLoadingScreen();
+    };
+
+    const mainContainer = document.querySelector('#pos-main-container');
+    if(mainContainer) mainContainer.addEventListener('input', calculateTotals);
+    
+    if(crewDiscountCheckbox) {
+        crewDiscountCheckbox.addEventListener('change', () => {
+            renderGrids();
+            calculateTotals();
+        });
+    }
+
+    loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (passwordInput.value === employeePassword) {
+            if (typeof grantEmployeeSession === 'function') grantEmployeeSession();
+            window.location.reload();
+        } else {
+            loginError.style.display = 'block';
+        }
+    });
+
+    clearPosBtn.addEventListener('click', clearPos);
+    checkoutPosBtn.addEventListener('click', logTransaction);
+    employeeSelect.addEventListener('change', (e) => checkClockInStatus(e.target.value));
+    clockInBtn.addEventListener('click', clockIn);
+    clockOutBtn.addEventListener('click', clockOut);
+    
+    let appHasInitialized = false;
+    const initializeApp = () => {
+        if (appHasInitialized) return;
+        appHasInitialized = true;
+
+        if (DEV_MODE) {
+            executeMainAppLogic();
+            return;
+        }
+        
+        const firebaseReadyHandler = (e) => {
+            executeMainAppLogic(e ? e.detail : { db: window.db, functions: window.firestoreFunctions });
+        };
+        
+        if (window.isFirebaseReady) {
+            firebaseReadyHandler();
+        } else {
+            document.addEventListener('firebaseReady', firebaseReadyHandler);
+        }
+    };
+
+    document.addEventListener('firebaseError', (e) => {
+        if (!appHasInitialized) {
+            alert("Critical Error: Firebase failed to load. " + e.detail?.error?.message);
+            hideLoadingScreen();
+        }
+    });
+    
+    initializeApp();
+
+    setTimeout(() => {
+        if (!appHasInitialized) {
+            console.warn("Firebase event listener may have failed. Forcing app initialization.");
+            initializeApp();
+        }
+    }, 3000);
+});
