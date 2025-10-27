@@ -1,1 +1,273 @@
-function _0x2795(){const _0x28b65f=['classList','toDate','functions','\x20|\x20DL:\x20','time_logs.csv','</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22employee-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22action-button\x20edit-btn\x22\x20data-id=\x22','siteSettings','<table\x20id=\x22timelogs-table\x22><thead><tr><th>Employee</th><th>Clock\x20In</th><th>Clock\x20Out</th><th>Duration</th></tr></thead><tbody>','Error\x20updating\x20password.','Are\x20you\x20sure\x20you\x20want\x20to\x20remove\x20this\x20employee?\x20This\x20cannot\x20be\x20undone.','quantity','detail','Error\x20deleting\x20employee:','bankInfo','dataset','export-transactions-btn','transactions.csv','Password\x20must\x20be\x20at\x20least\x204\x20characters\x20long.','\x22>Remove</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','employee-password-status','33lkashd','slice','sort','updateDoc','</tbody></table>','changeme_manager','manager-content','orderBy','Error\x20loading\x20employees:','manager-login-container','contains','empty','itemName','target','employee-form-title','textContent','employee-list','preventDefault','</td></tr>','3079412DFLQvL','Update\x20Employee','doc','<p\x20class=\x22error-message\x22>Error\x20loading\x20transaction\x20logs.</p>','<i>Active</i>','transactions','\x22>Edit</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22action-button\x20clear-button\x20remove-btn\x22\x20data-id=\x22','manager-login-error','charAt','manager-login-form','reset','add','Error\x20updating\x20','10uzHrBP','docs','transactionType','797463SbvTQA','block','\x20(x','value','timelogs-table','join','trim','createdAt','query','className','isFirebaseReady','parentNode','dlNumber','employees','manager','<table\x20id=\x22transactions-table\x22><thead><tr><th>Employee</th><th>Date</th><th>Type</th><th>Discount</th><th>Total</th><th>Items</th></tr></thead><tbody>','employeeName','clockOutTime','toLocaleString','idNumber','employee-item','passwords','clockInTime','Edit\x20Employee','display','round','<p><i>Loading\x20transactions...</i></p>','3313404fbqZtn','floor','6fNpyhu','toUpperCase','3694520VyrFsT','<tr><td>','save-employee-btn','Add\x20Employee','map','</td><td>','getElementById','<p><i>Loading\x20time\x20logs...</i></p>','Firebase\x20event\x20listener\x20may\x20have\x20failed.\x20Forcing\x20app\x20initialization.','find','none','div','transaction-log-display','<p><i>No\x20time\x20entries\x20logged\x20yet.</i></p>','message','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22employee-details\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>','3YhXlAg','submit','transactions-table','employee-dl-number','getDocs','exists','2664704AlLeuB','click','employee-bank-info','840570UFIpvz','innerHTML','firebaseError','61834TLAzfq','Error\x20saving\x20employee:','DOMContentLoaded','removeChild','All\x20employee\x20fields\x20are\x20required.','new-manager-password','addDoc','DEV_MODE\x20is\x20ACTIVE.\x20Bypassing\x20Firebase.','export-time-logs-btn','firebaseReady','function','addEventListener','64yONzMO','manager-password-status','crewDiscountApplied','firestoreFunctions','<i>N/A</i>','error','new-employee-password','collection','style','deleteDoc','<p><i>No\x20employees\x20found.\x20Add\x20one\x20using\x20the\x20form\x20above.</i></p>','N/A','employee-password-form','items','Critical\x20Error:\x20Firebase\x20failed\x20to\x20load.\x20','time-log-display','warn','cancel-edit-btn','forEach','desc','scrollTo','length','data','</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>ID:\x20','name','localeCompare','manager-password-form'];_0x2795=function(){return _0x28b65f;};return _0x2795();}function _0x43bf(_0x4d2c46,_0x4154ad){const _0x279525=_0x2795();return _0x43bf=function(_0x43bf47,_0x1f1e77){_0x43bf47=_0x43bf47-0xb5;let _0x54204c=_0x279525[_0x43bf47];return _0x54204c;},_0x43bf(_0x4d2c46,_0x4154ad);}const _0x24c298=_0x43bf;(function(_0x5d2568,_0x4f3562){const _0x3bfabc=_0x43bf,_0x41feb2=_0x5d2568();while(!![]){try{const _0x197ae0=parseInt(_0x3bfabc(0xff))/0x1*(parseInt(_0x3bfabc(0x13d))/0x2)+parseInt(_0x3bfabc(0x131))/0x3*(-parseInt(_0x3bfabc(0x137))/0x4)+parseInt(_0x3bfabc(0x121))/0x5+-parseInt(_0x3bfabc(0x11f))/0x6*(-parseInt(_0x3bfabc(0xf2))/0x7)+parseInt(_0x3bfabc(0x149))/0x8*(parseInt(_0x3bfabc(0x102))/0x9)+-parseInt(_0x3bfabc(0x13a))/0xa+-parseInt(_0x3bfabc(0xdf))/0xb*(parseInt(_0x3bfabc(0x11d))/0xc);if(_0x197ae0===_0x4f3562)break;else _0x41feb2['push'](_0x41feb2['shift']());}catch(_0x3e46f3){_0x41feb2['push'](_0x41feb2['shift']());}}}(_0x2795,0x96f16));const DEV_MODE=![];document[_0x24c298(0x148)](_0x24c298(0x13f),()=>{const _0xb60d4f=_0x24c298,_0x1a9828=document['getElementById']('loading-overlay'),_0x4f686e=document[_0xb60d4f(0x127)](_0xb60d4f(0xe5));if(!_0x4f686e){if(_0x1a9828)_0x5ec82a();return;}let _0x4ad7cb,_0x4c0ab7,_0x1d10e5=[],_0x3cdbee=null,_0x3a45ee=_0xb60d4f(0xe4);const _0x33e04f=document[_0xb60d4f(0x127)](_0xb60d4f(0xe8)),_0x2ba814=document['getElementById'](_0xb60d4f(0xfb)),_0x255a01=document[_0xb60d4f(0x127)]('manager-password'),_0x30a71f=document['getElementById'](_0xb60d4f(0xf9)),_0x511461=document[_0xb60d4f(0x127)]('employee-form'),_0x40e283=document[_0xb60d4f(0x127)](_0xb60d4f(0xed)),_0xa6aee5=document[_0xb60d4f(0x127)]('employee-name'),_0x221be0=document[_0xb60d4f(0x127)]('employee-id-number'),_0x5aa142=document[_0xb60d4f(0x127)](_0xb60d4f(0x134)),_0x3201e7=document[_0xb60d4f(0x127)](_0xb60d4f(0x139)),_0x2e50ec=document['getElementById'](_0xb60d4f(0x123)),_0x56b9f5=document['getElementById'](_0xb60d4f(0xc1)),_0x4c0be7=document[_0xb60d4f(0x127)](_0xb60d4f(0xef)),_0x8e0cca=document[_0xb60d4f(0x127)](_0xb60d4f(0x12d)),_0x27e508=document[_0xb60d4f(0x127)](_0xb60d4f(0xda)),_0x33103e=document[_0xb60d4f(0x127)](_0xb60d4f(0xbf)),_0x51e97f=document['getElementById'](_0xb60d4f(0x145)),_0x342d4f=document[_0xb60d4f(0x127)](_0xb60d4f(0xbc)),_0x30e0bb=document[_0xb60d4f(0x127)](_0xb60d4f(0xb6)),_0x3494fc=document['getElementById'](_0xb60d4f(0xde)),_0x47631a=document['getElementById'](_0xb60d4f(0xca)),_0x29a778=document[_0xb60d4f(0x127)](_0xb60d4f(0x142)),_0x135cd6=document[_0xb60d4f(0x127)](_0xb60d4f(0x14a)),_0x5ec82a=()=>{const _0x43e329=_0xb60d4f;_0x1a9828&&(_0x1a9828[_0x43e329(0xcb)][_0x43e329(0xfd)]('hidden'),setTimeout(()=>{const _0x6bf37f=_0x43e329;_0x1a9828[_0x6bf37f(0x10d)]&&_0x1a9828[_0x6bf37f(0x10d)][_0x6bf37f(0x140)](_0x1a9828);},0x1f4));},_0x531787=_0x130f1f=>{const _0xd04d19=_0xb60d4f;_0x33e04f['style'][_0xd04d19(0x11a)]=_0x130f1f?'none':'block',_0x4f686e[_0xd04d19(0xb8)]['display']=_0x130f1f?'block':_0xd04d19(0x12b),_0x130f1f&&typeof addLogoutButton===_0xd04d19(0x147)&&addLogoutButton();},_0x55ca23=()=>{const _0x5a4ab4=_0xb60d4f;_0x4c0be7[_0x5a4ab4(0x13b)]='',_0x1d10e5[_0x5a4ab4(0xe1)]((_0x1ec2f9,_0x1bb6a4)=>_0x1ec2f9[_0x5a4ab4(0xc8)][_0x5a4ab4(0xc9)](_0x1bb6a4[_0x5a4ab4(0xc8)]));if(_0x1d10e5['length']===0x0){_0x4c0be7[_0x5a4ab4(0x13b)]=_0x5a4ab4(0xba);return;}_0x1d10e5[_0x5a4ab4(0xc2)](_0x40a687=>{const _0x5a9819=_0x5a4ab4,_0xb838df=document['createElement'](_0x5a9819(0x12c));_0xb838df[_0x5a9819(0x10b)]=_0x5a9819(0x116),_0xb838df[_0x5a9819(0x13b)]=_0x5a9819(0x130)+_0x40a687[_0x5a9819(0xc8)]+_0x5a9819(0xc7)+(_0x40a687[_0x5a9819(0x115)]||_0x5a9819(0xbb))+_0x5a9819(0xce)+(_0x40a687[_0x5a9819(0x10e)]||_0x5a9819(0xbb))+'\x20|\x20Bank:\x20'+(_0x40a687[_0x5a9819(0xd8)]||_0x5a9819(0xbb))+_0x5a9819(0xd0)+_0x40a687['id']+_0x5a9819(0xf8)+_0x40a687['id']+_0x5a9819(0xdd),_0x4c0be7['appendChild'](_0xb838df);});},_0x575c61=async()=>{const _0x17b678=_0xb60d4f;try{const _0x43cac1=_0x4c0ab7[_0x17b678(0x10a)](_0x4c0ab7['collection'](_0x4ad7cb,_0x17b678(0x10f)),_0x4c0ab7['orderBy'](_0x17b678(0xc8))),_0xcd2bb9=await _0x4c0ab7['getDocs'](_0x43cac1);_0x1d10e5=_0xcd2bb9[_0x17b678(0x100)][_0x17b678(0x125)](_0x16bb6f=>({'id':_0x16bb6f['id'],..._0x16bb6f[_0x17b678(0xc6)]()})),_0x55ca23();}catch(_0x165755){console[_0x17b678(0xb5)](_0x17b678(0xe7),_0x165755);}},_0x51f43e=()=>{const _0x16447d=_0xb60d4f;_0x511461[_0x16447d(0xfc)](),_0x3cdbee=null,_0x40e283[_0x16447d(0xee)]='Add\x20New\x20Employee',_0x2e50ec[_0x16447d(0xee)]=_0x16447d(0x124),_0x56b9f5[_0x16447d(0xb8)][_0x16447d(0x11a)]=_0x16447d(0x12b);},_0x1f005e=_0xfa7f1b=>{const _0x4493aa=_0xb60d4f,_0x344e32=_0x1d10e5[_0x4493aa(0x12a)](_0x33a64f=>_0x33a64f['id']===_0xfa7f1b);_0x344e32&&(_0x3cdbee=_0xfa7f1b,_0xa6aee5['value']=_0x344e32[_0x4493aa(0xc8)],_0x221be0[_0x4493aa(0x105)]=_0x344e32['idNumber'],_0x5aa142[_0x4493aa(0x105)]=_0x344e32['dlNumber']||'',_0x3201e7[_0x4493aa(0x105)]=_0x344e32[_0x4493aa(0xd8)]||'',_0x40e283['textContent']=_0x4493aa(0x119),_0x2e50ec[_0x4493aa(0xee)]=_0x4493aa(0xf3),_0x56b9f5[_0x4493aa(0xb8)]['display']='inline-block',window[_0x4493aa(0xc4)]({'top':0x0,'behavior':'smooth'}));},_0x1b3a94=async _0x12ca99=>{const _0x30f501=_0xb60d4f;_0x12ca99[_0x30f501(0xf0)]();const _0x254611=_0xa6aee5['value'][_0x30f501(0x108)](),_0x5075d1=_0x221be0[_0x30f501(0x105)][_0x30f501(0x108)](),_0x27f276=_0x5aa142[_0x30f501(0x105)][_0x30f501(0x108)](),_0x38c23b=_0x3201e7[_0x30f501(0x105)][_0x30f501(0x108)]();if(!_0x254611||!_0x5075d1||!_0x27f276||!_0x38c23b){alert(_0x30f501(0x141));return;}const _0x448526={'name':_0x254611,'idNumber':_0x5075d1,'dlNumber':_0x27f276,'bankInfo':_0x38c23b};try{_0x3cdbee?await _0x4c0ab7[_0x30f501(0xe2)](_0x4c0ab7[_0x30f501(0xf4)](_0x4ad7cb,'employees',_0x3cdbee),_0x448526):await _0x4c0ab7[_0x30f501(0x143)](_0x4c0ab7[_0x30f501(0xb7)](_0x4ad7cb,_0x30f501(0x10f)),_0x448526),_0x51f43e(),await _0x575c61();}catch(_0x1c20c3){console[_0x30f501(0xb5)](_0x30f501(0x13e),_0x1c20c3);}},_0xcdee6a=async _0x24d11f=>{const _0x4d6f4d=_0xb60d4f;if(confirm(_0x4d6f4d(0xd4)))try{await _0x4c0ab7[_0x4d6f4d(0xb9)](_0x4c0ab7[_0x4d6f4d(0xf4)](_0x4ad7cb,_0x4d6f4d(0x10f),_0x24d11f)),await _0x575c61();}catch(_0x1f2b41){console[_0x4d6f4d(0xb5)](_0x4d6f4d(0xd7),_0x1f2b41);}},_0x3004ed=async()=>{const _0xa0ef35=_0xb60d4f;_0x8e0cca[_0xa0ef35(0x13b)]=_0xa0ef35(0x11c);try{const _0x329426=_0x4c0ab7[_0xa0ef35(0x10a)](_0x4c0ab7[_0xa0ef35(0xb7)](_0x4ad7cb,_0xa0ef35(0xf7)),_0x4c0ab7[_0xa0ef35(0xe6)](_0xa0ef35(0x109),_0xa0ef35(0xc3))),_0x130dad=await _0x4c0ab7['getDocs'](_0x329426);if(_0x130dad[_0xa0ef35(0xea)]){_0x8e0cca['innerHTML']='<p><i>No\x20transactions\x20logged\x20yet.</i></p>';return;}let _0x163516=_0xa0ef35(0x111);_0x130dad['forEach'](_0x5523bc=>{const _0x8459dd=_0xa0ef35,_0x37c103=_0x5523bc[_0x8459dd(0xc6)](),_0x120d78=(_0x37c103[_0x8459dd(0xbd)]||[])[_0x8459dd(0x125)](_0x254d6e=>_0x254d6e[_0x8459dd(0xeb)]+_0x8459dd(0x104)+_0x254d6e[_0x8459dd(0xd5)]+')')[_0x8459dd(0x107)](',\x20'),_0x428d73=_0x37c103[_0x8459dd(0x101)]?_0x37c103[_0x8459dd(0x101)][_0x8459dd(0x120)]():_0x8459dd(0xbb),_0x49391c=_0x37c103[_0x8459dd(0x14b)]?'Yes':'No';_0x163516+=_0x8459dd(0x122)+_0x37c103[_0x8459dd(0x112)]+_0x8459dd(0x126)+_0x37c103[_0x8459dd(0x109)][_0x8459dd(0xcc)]()[_0x8459dd(0x114)]()+_0x8459dd(0x126)+_0x428d73+_0x8459dd(0x126)+_0x49391c+'</td><td>$'+_0x37c103['totalAmount'][_0x8459dd(0x114)]()+_0x8459dd(0x126)+_0x120d78+_0x8459dd(0xf1);}),_0x163516+=_0xa0ef35(0xe3),_0x8e0cca['innerHTML']=_0x163516;}catch(_0x4e88e0){_0x8e0cca[_0xa0ef35(0x13b)]=_0xa0ef35(0xf5),console[_0xa0ef35(0xb5)](_0x4e88e0);}},_0x330e62=async()=>{const _0x5882e9=_0xb60d4f;_0x33103e[_0x5882e9(0x13b)]=_0x5882e9(0x128);try{const _0x1512f7=_0x4c0ab7[_0x5882e9(0x10a)](_0x4c0ab7[_0x5882e9(0xb7)](_0x4ad7cb,'timeEntries'),_0x4c0ab7['orderBy']('clockInTime','desc')),_0x25a56e=await _0x4c0ab7[_0x5882e9(0x135)](_0x1512f7);if(_0x25a56e['empty']){_0x33103e['innerHTML']=_0x5882e9(0x12e);return;}let _0x210407=_0x5882e9(0xd2);_0x25a56e[_0x5882e9(0xc2)](_0x1b11b7=>{const _0x5989a1=_0x5882e9,_0x57e92b=_0x1b11b7['data'](),_0x9f38f4=_0x57e92b[_0x5989a1(0x118)]['toDate']();let _0x4bdd3d=_0x5989a1(0xf6),_0xfc1c1b=_0x5989a1(0x14d);if(_0x57e92b[_0x5989a1(0x113)]){const _0x581008=_0x57e92b[_0x5989a1(0x113)]['toDate']();_0x4bdd3d=_0x581008['toLocaleString']();const _0x484a42=Math[_0x5989a1(0x11b)]((_0x581008-_0x9f38f4)/0xea60);_0xfc1c1b=Math[_0x5989a1(0x11e)](_0x484a42/0x3c)+'h\x20'+_0x484a42%0x3c+'m';}_0x210407+=_0x5989a1(0x122)+_0x57e92b[_0x5989a1(0x112)]+_0x5989a1(0x126)+_0x9f38f4[_0x5989a1(0x114)]()+_0x5989a1(0x126)+_0x4bdd3d+_0x5989a1(0x126)+_0xfc1c1b+_0x5989a1(0xf1);}),_0x210407+='</tbody></table>',_0x33103e[_0x5882e9(0x13b)]=_0x210407;}catch(_0x1f49f5){_0x33103e[_0x5882e9(0x13b)]='<p\x20class=\x22error-message\x22>Error\x20loading\x20time\x20logs.</p>',console[_0x5882e9(0xb5)](_0x1f49f5);}},_0x173bd7=async(_0x277090,_0x545a16,_0x3f64b6)=>{const _0x2b2835=_0xb60d4f;if(!_0x545a16||_0x545a16[_0x2b2835(0xc5)]<0x4){if(typeof showStatusMessage===_0x2b2835(0x147))showStatusMessage(_0x3f64b6,_0x2b2835(0xdc),![]);return;}try{await _0x4c0ab7['setDoc'](_0x4c0ab7[_0x2b2835(0xf4)](_0x4ad7cb,_0x2b2835(0xd1),_0x2b2835(0x117)),{[_0x277090]:_0x545a16},{'merge':!![]});if(_0x277090===_0x2b2835(0x110))_0x3a45ee=_0x545a16;if(typeof showStatusMessage===_0x2b2835(0x147))showStatusMessage(_0x3f64b6,_0x277090[_0x2b2835(0xfa)](0x0)[_0x2b2835(0x120)]()+_0x277090[_0x2b2835(0xe0)](0x1)+'\x20password\x20updated!',!![]);}catch(_0x10187e){console[_0x2b2835(0xb5)](_0x2b2835(0xfe)+_0x277090+'\x20password:',_0x10187e);if(typeof showStatusMessage===_0x2b2835(0x147))showStatusMessage(_0x3f64b6,_0x2b2835(0xd3),![]);}},_0x13cab1=async _0x441e07=>{const _0x1836d9=_0xb60d4f;if(DEV_MODE){console[_0x1836d9(0xc0)](_0x1836d9(0x144)),_0x531787(!![]),_0x5ec82a();return;}_0x4ad7cb=_0x441e07['db'],_0x4c0ab7=_0x441e07[_0x1836d9(0xcd)];if(typeof checkManagerSession===_0x1836d9(0x147)&&checkManagerSession())_0x531787(!![]),await Promise['all']([_0x575c61(),_0x3004ed(),_0x330e62()]);else{_0x531787(![]);try{const _0x44755e=_0x4c0ab7[_0x1836d9(0xf4)](_0x4ad7cb,_0x1836d9(0xd1),_0x1836d9(0x117)),_0x58be23=await _0x4c0ab7['getDoc'](_0x44755e);if(_0x58be23[_0x1836d9(0x136)]()&&_0x58be23[_0x1836d9(0xc6)]()[_0x1836d9(0x110)])_0x3a45ee=_0x58be23[_0x1836d9(0xc6)]()[_0x1836d9(0x110)];}catch(_0x5172e3){console['warn']('Could\x20not\x20fetch\x20manager\x20password,\x20using\x20default.');}}_0x5ec82a();};_0x2ba814[_0xb60d4f(0x148)](_0xb60d4f(0x132),_0x24188e=>{const _0x8df475=_0xb60d4f;_0x24188e[_0x8df475(0xf0)]();if(_0x255a01[_0x8df475(0x105)]===_0x3a45ee){if(typeof grantManagerSession===_0x8df475(0x147))grantManagerSession();window['location']['reload']();}else _0x30a71f[_0x8df475(0xb8)][_0x8df475(0x11a)]=_0x8df475(0x103);}),_0x511461['addEventListener'](_0xb60d4f(0x132),_0x1b3a94),_0x56b9f5[_0xb60d4f(0x148)](_0xb60d4f(0x138),_0x51f43e),_0x4c0be7[_0xb60d4f(0x148)]('click',_0x2128ee=>{const _0x50a361=_0xb60d4f;if(_0x2128ee['target'][_0x50a361(0xcb)][_0x50a361(0xe9)]('edit-btn'))_0x1f005e(_0x2128ee[_0x50a361(0xec)][_0x50a361(0xd9)]['id']);else{if(_0x2128ee[_0x50a361(0xec)][_0x50a361(0xcb)][_0x50a361(0xe9)]('remove-btn'))_0xcdee6a(_0x2128ee[_0x50a361(0xec)][_0x50a361(0xd9)]['id']);}}),_0x27e508['addEventListener'](_0xb60d4f(0x138),()=>exportTableToCSV(_0xb60d4f(0xdb),_0xb60d4f(0x133))),_0x51e97f[_0xb60d4f(0x148)](_0xb60d4f(0x138),()=>exportTableToCSV(_0xb60d4f(0xcf),_0xb60d4f(0x106))),_0x342d4f['addEventListener'](_0xb60d4f(0x132),_0x1c6f73=>{const _0x2bec38=_0xb60d4f;_0x1c6f73[_0x2bec38(0xf0)](),_0x173bd7('employee',_0x30e0bb[_0x2bec38(0x105)][_0x2bec38(0x108)](),_0x3494fc);}),_0x47631a[_0xb60d4f(0x148)]('submit',_0x8477e0=>{const _0x52248d=_0xb60d4f;_0x8477e0[_0x52248d(0xf0)](),_0x173bd7(_0x52248d(0x110),_0x29a778[_0x52248d(0x105)][_0x52248d(0x108)](),_0x135cd6);});let _0x131019=![];const _0x473ee1=()=>{const _0x5a26ed=_0xb60d4f;if(_0x131019)return;_0x131019=!![];if(DEV_MODE){_0x13cab1();return;}window[_0x5a26ed(0x10c)]?_0x13cab1({'db':window['db'],'functions':window[_0x5a26ed(0x14c)]}):document[_0x5a26ed(0x148)](_0x5a26ed(0x146),_0x5f1801=>_0x13cab1(_0x5f1801[_0x5a26ed(0xd6)]));};document[_0xb60d4f(0x148)](_0xb60d4f(0x13c),_0x26b1ad=>{const _0x69f8b2=_0xb60d4f;!_0x131019&&(alert(_0x69f8b2(0xbe)+_0x26b1ad['detail']?.[_0x69f8b2(0xb5)]?.[_0x69f8b2(0x12f)]),_0x5ec82a());}),_0x473ee1(),setTimeout(()=>{const _0x533e14=_0xb60d4f;!_0x131019&&(console[_0x533e14(0xc0)](_0x533e14(0x129)),_0x473ee1());},0xbb8);});
+// --- DEVELOPER BACKDOOR ---
+const DEV_MODE = false;
+// ---
+
+document.addEventListener('DOMContentLoaded', () => {
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const managerContent = document.getElementById('manager-content');
+    if (!managerContent) {
+        if(loadingOverlay) hideLoadingScreen();
+        return;
+    }
+
+    let db, firestoreFunctions;
+    let employees = [];
+    let editingEmployeeId = null;
+    let managerPassword = "changeme_manager";
+
+    const loginContainer = document.getElementById('manager-login-container');
+    const loginForm = document.getElementById('manager-login-form');
+    const passwordInput = document.getElementById('manager-password');
+    const loginError = document.getElementById('manager-login-error');
+    const employeeForm = document.getElementById('employee-form');
+    const employeeFormTitle = document.querySelector('#employee-form h3');
+    const employeeNameInput = document.getElementById('employee-name');
+    const employeeIdNumberInput = document.getElementById('employee-id-number');
+    const employeeDlNumberInput = document.getElementById('employee-dl-number');
+    const employeeBankInfoInput = document.getElementById('employee-bank-info');
+    const saveEmployeeBtn = document.getElementById('save-employee-btn');
+    const cancelEditBtn = document.getElementById('cancel-edit-btn');
+    const employeeListDiv = document.getElementById('employee-list');
+    const transactionLogDisplayDiv = document.getElementById('transaction-log-display');
+    const exportTransactionsBtn = document.getElementById('export-transactions-btn');
+    const timeLogDisplayDiv = document.getElementById('time-log-display');
+    const exportTimeLogsBtn = document.getElementById('export-time-logs-btn');
+    const employeePasswordForm = document.getElementById('employee-password-form');
+    const newEmployeePasswordInput = document.getElementById('new-employee-password');
+    const employeePasswordStatus = document.getElementById('employee-password-status');
+    const managerPasswordForm = document.getElementById('manager-password-form');
+    const newManagerPasswordInput = document.getElementById('new-manager-password');
+    const managerPasswordStatus = document.getElementById('manager-password-status');
+
+    const hideLoadingScreen = () => {
+        if (loadingOverlay) {
+            loadingOverlay.classList.add('hidden');
+            setTimeout(() => { if (loadingOverlay.parentNode) { loadingOverlay.parentNode.removeChild(loadingOverlay); } }, 500);
+        }
+    };
+
+    const updateView = (isManager) => {
+        loginContainer.style.display = isManager ? 'none' : 'block';
+        managerContent.style.display = isManager ? 'block' : 'none';
+        if (isManager && typeof addLogoutButton === 'function') {
+            addLogoutButton();
+        }
+    };
+
+    const renderEmployeeList = () => {
+        employeeListDiv.innerHTML = '';
+        employees.sort((a, b) => a.name.localeCompare(b.name));
+        if (employees.length === 0) {
+            employeeListDiv.innerHTML = '<p><i>No employees found.</i></p>';
+            return;
+        }
+        employees.forEach(emp => {
+            const item = document.createElement('div');
+            item.className = 'employee-item';
+            item.innerHTML = `
+                <div class="employee-details">
+                    <strong class="employee-name">${emp.name}</strong>
+                    <div class="employee-info-block">
+                        <span>ID: ${emp.idNumber || 'N/A'}</span>
+                        <span>DL: ${emp.dlNumber || 'N/A'}</span>
+                        <span>Bank: ${emp.bankInfo || 'N/A'}</span>
+                    </div>
+                </div>
+                <div class="employee-actions">
+                    <button class="action-button edit-btn" data-id="${emp.id}">Edit</button>
+                    <button class="action-button clear-button remove-btn" data-id="${emp.id}">Remove</button>
+                </div>`;
+            employeeListDiv.appendChild(item);
+        });
+    };
+
+    const loadAllEmployees = async () => {
+        try {
+            const q = firestoreFunctions.query(firestoreFunctions.collection(db, "employees"), firestoreFunctions.orderBy("name"));
+            const snapshot = await firestoreFunctions.getDocs(q);
+            employees = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+            renderEmployeeList();
+        } catch (error) { console.error("Error loading employees:", error); }
+    };
+    
+    const resetEmployeeForm = () => {
+        employeeForm.reset();
+        editingEmployeeId = null;
+        if (employeeFormTitle) employeeFormTitle.textContent = 'Add New Employee';
+        saveEmployeeBtn.textContent = 'Add Employee';
+        cancelEditBtn.style.display = 'none';
+    };
+
+    const prepareEditEmployee = (id) => {
+        const employee = employees.find(e => e.id === id);
+        if (employee) {
+            editingEmployeeId = id;
+            employeeNameInput.value = employee.name;
+            employeeIdNumberInput.value = employee.idNumber;
+            employeeDlNumberInput.value = employee.dlNumber || '';
+            employeeBankInfoInput.value = employee.bankInfo || '';
+            if (employeeFormTitle) employeeFormTitle.textContent = 'Edit Employee';
+            saveEmployeeBtn.textContent = 'Update Employee';
+            cancelEditBtn.style.display = 'inline-block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    };
+
+    const saveEmployee = async (e) => {
+        e.preventDefault();
+        const name = employeeNameInput.value.trim();
+        const idNumber = employeeIdNumberInput.value.trim();
+        const dlNumber = employeeDlNumberInput.value.trim();
+        const bankInfo = employeeBankInfoInput.value.trim();
+        if (!name || !idNumber || !dlNumber || !bankInfo) { alert("All employee fields are required."); return; }
+        const employeeData = { name, idNumber, dlNumber, bankInfo };
+        try {
+            if (editingEmployeeId) {
+                await firestoreFunctions.updateDoc(firestoreFunctions.doc(db, "employees", editingEmployeeId), employeeData);
+            } else {
+                await firestoreFunctions.addDoc(firestoreFunctions.collection(db, "employees"), employeeData);
+            }
+            resetEmployeeForm();
+            await loadAllEmployees();
+        } catch (error) { console.error("Error saving employee:", error); }
+    };
+
+    const deleteEmployee = async (id) => {
+        if (confirm('Are you sure you want to remove this employee? This cannot be undone.')) {
+            try {
+                await firestoreFunctions.deleteDoc(firestoreFunctions.doc(db, "employees", id));
+                await loadAllEmployees();
+            } catch (error) { console.error("Error deleting employee:", error); }
+        }
+    };
+    
+    const loadAllTransactions = async () => {
+        transactionLogDisplayDiv.innerHTML = `<p><i>Loading transactions...</i></p>`;
+        try {
+            const q = firestoreFunctions.query(firestoreFunctions.collection(db, "transactions"), firestoreFunctions.orderBy("createdAt", "desc"));
+            const snapshot = await firestoreFunctions.getDocs(q);
+            if (snapshot.empty) {
+                transactionLogDisplayDiv.innerHTML = `<p><i>No transactions logged yet.</i></p>`;
+                return;
+            }
+            let tableHtml = '<table id="transactions-table"><thead><tr><th>Employee</th><th>Date</th><th>Buy Total</th><th>Sell Total</th><th>Net Total</th><th>Items</th></tr></thead><tbody>';
+            snapshot.forEach(doc => {
+                const entry = doc.data();
+                const buyTotal = entry.buyTotal || 0;
+                const sellTotal = entry.sellTotal || 0;
+                const netTotal = entry.netTotal ?? (entry.totalAmount ?? (sellTotal - buyTotal));
+                const buyItems = (entry.buyItems || []).map(i => `${i.name}(x${i.quantity})`).join(', ');
+                const sellItems = (entry.sellItems || []).map(i => `${i.name}(x${i.quantity})`).join(', ');
+                const oldItems = (entry.items || []).map(i => `${i.itemName}(x${i.quantity})`).join(', ');
+                let itemsStr = '';
+                if (buyItems) itemsStr += `BUY: ${buyItems}`;
+                if (sellItems) itemsStr += `${buyItems ? ' || ' : ''}SELL: ${sellItems}`;
+                if (!itemsStr && oldItems) itemsStr = oldItems;
+                tableHtml += `<tr>
+                    <td>${entry.employeeName || 'N/A'}</td>
+                    <td>${entry.createdAt ? entry.createdAt.toDate().toLocaleString() : 'N/A'}</td>
+                    <td>$${buyTotal.toLocaleString()}</td>
+                    <td>$${sellTotal.toLocaleString()}</td>
+                    <td>$${netTotal.toLocaleString()}</td>
+                    <td>${itemsStr || 'N/A'}</td>
+                </tr>`;
+            });
+            tableHtml += '</tbody></table>';
+            transactionLogDisplayDiv.innerHTML = tableHtml;
+        } catch (error) {
+            console.error("Error processing transaction logs:", error);
+            transactionLogDisplayDiv.innerHTML = `<p class="error-message">Error loading logs. A record may be corrupt. See console.</p>`;
+        }
+    };
+    
+    const loadAllTimeEntries = async () => {
+        timeLogDisplayDiv.innerHTML = `<p><i>Loading time logs...</i></p>`;
+        try {
+            const q = firestoreFunctions.query(firestoreFunctions.collection(db, "timeEntries"), firestoreFunctions.orderBy("clockInTime", "desc"));
+            const snapshot = await firestoreFunctions.getDocs(q);
+            if (snapshot.empty) { timeLogDisplayDiv.innerHTML = `<p><i>No time entries logged yet.</i></p>`; return; }
+            let tableHtml = '<table id="timelogs-table"><thead><tr><th>Employee</th><th>Clock In</th><th>Clock Out</th><th>Duration</th></tr></thead><tbody>';
+            snapshot.forEach(doc => {
+                const entry = doc.data();
+                const clockIn = entry.clockInTime.toDate();
+                let clockOutStr = '<i>Active</i>', durationStr = '<i>N/A</i>';
+                if (entry.clockOutTime) {
+                    const clockOut = entry.clockOutTime.toDate();
+                    clockOutStr = clockOut.toLocaleString();
+                    const durationMinutes = Math.round((clockOut - clockIn) / 60000);
+                    durationStr = `${Math.floor(durationMinutes / 60)}h ${durationMinutes % 60}m`;
+                }
+                tableHtml += `<tr><td>${entry.employeeName}</td><td>${clockIn.toLocaleString()}</td><td>${clockOutStr}</td><td>${durationStr}</td></tr>`;
+            });
+            tableHtml += '</tbody></table>';
+            timeLogDisplayDiv.innerHTML = tableHtml;
+        } catch (error) { timeLogDisplayDiv.innerHTML = `<p class="error-message">Error loading time logs.</p>`; console.error(error); }
+    };
+    
+    const updatePassword = async (type, newPassword, statusElement) => {
+        if (!newPassword || newPassword.length < 4) { if (typeof showStatusMessage === 'function') showStatusMessage(statusElement, "Password must be >= 4 characters.", false); return; }
+        try {
+            await firestoreFunctions.setDoc(firestoreFunctions.doc(db, "siteSettings", "passwords"), { [type]: newPassword }, { merge: true });
+            if (type === 'manager') managerPassword = newPassword;
+            if (typeof showStatusMessage === 'function') showStatusMessage(statusElement, `${type.charAt(0).toUpperCase() + type.slice(1)} password updated!`, true);
+        } catch (error) { console.error(`Error updating ${type} password:`, error); if (typeof showStatusMessage === 'function') showStatusMessage(statusElement, `Error updating password.`, false); }
+    };
+
+    const executeManagerAppLogic = async (firebaseDetail) => {
+        if (DEV_MODE) { console.warn("DEV_MODE ACTIVE."); updateView(true); hideLoadingScreen(); return; }
+        db = firebaseDetail.db;
+        firestoreFunctions = firebaseDetail.functions;
+        if (typeof checkManagerSession === 'function' && checkManagerSession()) {
+            updateView(true);
+            await Promise.all([loadAllEmployees(), loadAllTransactions(), loadAllTimeEntries()]);
+        } else {
+            updateView(false);
+            try {
+                const docRef = firestoreFunctions.doc(db, "siteSettings", "passwords");
+                const docSnap = await firestoreFunctions.getDoc(docRef);
+                if (docSnap.exists() && docSnap.data().manager) {
+                    managerPassword = docSnap.data().manager;
+                }
+            } catch (e) { console.warn("Could not fetch manager password."); }
+        }
+        hideLoadingScreen();
+    };
+    
+    loginForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (passwordInput.value === managerPassword) {
+            if (typeof grantManagerSession === 'function') grantManagerSession();
+            window.location.reload();
+        } else {
+            loginError.style.display = 'block';
+        }
+    });
+
+    employeeForm.addEventListener('submit', saveEmployee);
+    cancelEditBtn.addEventListener('click', resetEmployeeForm);
+    employeeListDiv.addEventListener('click', (e) => {
+        if (e.target.classList.contains('edit-btn')) prepareEditEmployee(e.target.dataset.id); 
+        else if (e.target.classList.contains('remove-btn')) deleteEmployee(e.target.dataset.id);
+    });
+
+    exportTransactionsBtn.addEventListener('click', () => exportTableToCSV('transactions.csv', 'transactions-table'));
+    exportTimeLogsBtn.addEventListener('click', () => exportTableToCSV('time_logs.csv', 'timelogs-table'));
+
+    employeePasswordForm.addEventListener('submit', (e) => { e.preventDefault(); updatePassword('employee', newEmployeePasswordInput.value.trim(), employeePasswordStatus); });
+    managerPasswordForm.addEventListener('submit', (e) => { e.preventDefault(); updatePassword('manager', newManagerPasswordInput.value.trim(), managerPasswordStatus); });
+
+    let appHasInitialized = false;
+    const initializeApp = () => {
+        if (appHasInitialized) return;
+        appHasInitialized = true;
+        if (DEV_MODE) { executeManagerAppLogic(); return; }
+        const firebaseReadyHandler = (e) => {
+            executeManagerAppLogic(e ? e.detail : { db: window.db, functions: window.firestoreFunctions });
+        };
+        if (window.isFirebaseReady) { firebaseReadyHandler(); }
+        else { document.addEventListener('firebaseReady', firebaseReadyHandler); }
+    };
+    document.addEventListener('firebaseError', (e) => { if (!appHasInitialized) { alert("Firebase failed to load. " + e.detail?.error?.message); hideLoadingScreen(); }});
+    initializeApp();
+    setTimeout(() => { if (!appHasInitialized) { console.warn("Forcing app initialization."); initializeApp(); } }, 3000);
+});

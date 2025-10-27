@@ -1,8 +1,15 @@
 /* === Global Resets & Base === */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+html { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
 body { 
-    background: linear-gradient(135deg, #098ae6, #062f5b); 
+    background-image: url(background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     color: white; 
     height: 1vh; 
     width: 100vw;
@@ -14,7 +21,7 @@ body {
     max-width: 100vw;
     height: 100vh; 
     margin: 0 auto; 
-    padding: 75px 15px 15px;
+    padding: 75px 15px 15px; 
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -30,20 +37,21 @@ body {
 footer { display: none; }
 hr { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.15), rgba(255,255,255,0)); margin: 10px 0; }
 
-/* === Navbar & Header (Restored and Correct) === */
-.navbar { position: fixed; top: 10px; left: 10px; z-index: 10002; }
+/* === Navbar & Header === */
+.navbar { position: fixed; top: 15px; left: 15px; z-index: 10002; }
 .dropdown { position: relative; display: inline-block; }
-.logo-container { width: 65px; height: 65px; border-radius: 50%; background-color: rgba(23, 23, 38, 0.9); border: 2px solid #098ae6; display: flex; justify-content: center; align-items: center; cursor: pointer; }
+.logo-container { width: 90px; height: 90px; border-radius: 50%; background-color: rgba(23, 23, 38, 0.9); border: 2px solid #098ae6; display: flex; justify-content: center; align-items: center; cursor: pointer; transition: background-color 0.2s; }
 .logo-container:hover { background-color: rgba(40, 40, 60, 0.9); }
-.logo-container img { max-width: 90%; max-height: 90%; }
+.logo-container img { max-width: 200%; max-height: 200%; }
 .dropdown-content { display: none; position: absolute; background-color: #171726; border: 1px solid #333; border-radius: 6px; min-width: 200px; box-shadow: 0 8px 16px rgba(0,0,0,0.5); z-index: 1; top: 100%; left: 0; padding: 8px 0; margin-top: 5px; }
-.dropdown-content.visible { display: block; }
+.dropdown-content.visible { display: block; } /* NEW: For JS control */
 .dropdown-content a { color: #f0f0f0; padding: 12px 20px; display: block; text-align: center; }
 .dropdown-content a:hover { background-color: #098ae6; color: #fff; }
-header { display: none; }
+header { margin-bottom: 30px; }
+.header-logo { max-width: 300px; height: auto; }
 
 /* === General Content & Forms (Compact) === */
-.content-block { background-color: rgba(23, 23, 38, 0.9); padding: 10px; border-radius: 10px; border: 1px solid #333; width: 100%; text-align: center; margin-bottom: -255px; }
+.content-block { background-color: rgba(23, 23, 38, 0.9); padding: 10px; border-radius: 10px; border: 1px solid #333; width: 100%; text-align: center; margin-bottom: -325px; }
 h1 { font-size: 1.3rem; margin-bottom: 10px; color: #098ae6; }
 h2 { font-size: 1.2rem; }
 .form-group { text-align: left; margin-bottom: 5px; }
@@ -172,4 +180,147 @@ input[type=number] { -moz-appearance: textfield; }
 .pos-grid {
     overflow-x: hidden;    /* prevent horizontal scroll */
     overflow-y: auto;      /* vertical only */
+}
+body.manager-page-body {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+    display: block; /* Override flex */
+    justify-content: normal;
+    align-items: normal;
+}
+/* Center the main container and give it a width */
+.manager-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(23, 23, 38, 0.9);
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 25px;
+    margin: 20px auto; /* Centers the block */
+    text-align: center;
+}
+/* Re-style header elements within this container */
+.manager-container h1 {
+    font-size: 2rem;
+    color: #098ae6;
+    margin-bottom: 25px;
+}
+.manager-container h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.manager-container hr {
+    margin: 30px 0;
+}
+
+
+/* --- 2. Add New Employee Form --- */
+
+/* Use grid for the form inputs for perfect alignment */
+#employee-form .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 15px 25px; /* Row and column gap */
+    text-align: left;
+    margin-bottom: 20px;
+}
+/* Ensure form buttons are centered */
+#employee-form .form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* --- 3. Current Employees List --- */
+
+/* Ensure text is aligned left in the list */
+#employee-list .employee-item {
+    text-align: left;
+}
+
+
+/* --- 4. Manage Passwords Section --- */
+
+/* Use flexbox to put the two forms side-by-side */
+.password-forms-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the two forms */
+    flex-wrap: wrap; /* Allows stacking on small screens */
+    margin-bottom: 15px;
+}
+.password-forms-container form {
+    flex: 1; /* Allow forms to grow */
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+
+/* --- 5. Log Sections (Tables and Buttons) --- */
+
+.manager-container .action-button {
+    margin-bottom: 20px; /* Space below export buttons */
+}
+.log-container {
+    background-color: rgba(10, 10, 20, 0.6);
+    border: 1px solid #444;
+    padding: 5px;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #333; }
+th { background-color: rgba(40, 40, 60, 0.8); }
+
+#employee-list {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/* The main container for each employee row */
+#employee-list .employee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(10, 10, 20, 0.6);
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #444;
+}
+
+/* The left side of the row, containing the name and info */
+#employee-list .employee-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* The employee's name */
+#employee-list .employee-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+/* The container for the row of info (ID, DL, Bank) */
+#employee-list .employee-info-block {
+    display: flex;
+    gap: 15px; /* Space between info items */
+    margin-top: 5px;
+}
+
+/* Individual info items */
+#employee-list .employee-info-block span {
+    font-size: 0.9rem;
+    color: #ccc;
+    background-color: rgba(40, 40, 60, 0.5);
+    padding: 2px 6px;
+    border-radius: 4px;
 }

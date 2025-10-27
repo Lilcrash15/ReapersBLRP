@@ -9,37 +9,24 @@
     <!-- START: Firebase SDK and Configuration -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-      import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-      
-      // *** ACTION REQUIRED: YOUR FIREBASE CONFIG GOES HERE ***
-      const firebaseConfig = {
-        apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q",
-        authDomain: "reapersscrapyard.firebaseapp.com",
-        projectId: "reapersscrapyard",
-        storageBucket: "reapersscrapyard.firebasestorage.app",
-        messagingSenderId: "306469396173",
-        appId: "1:306469396173:web:040acb36b262fd70239384"
-      };
-
+      import { getFirestore, collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, orderBy, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+      const firebaseConfig = { apiKey: "AIzaSyAbXIFaU8meMqJGNiV2KNiOMiuTCJcs74Q", authDomain: "reapersscrapyard.firebaseapp.com", projectId: "reapersscrapyard", storageBucket: "reapersscrapyard.appspot.com", messagingSenderId: "306469396173", appId: "1:306469396173:web:040acb36b262fd70239384" };
       try {
         const app = initializeApp(firebaseConfig);
         window.db = getFirestore(app);
-        window.firestoreFunctions = { collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, where, orderBy, serverTimestamp, getDoc, setDoc };
+        window.firestoreFunctions = { collection, addDoc, getDocs, doc, updateDoc, deleteDoc, query, orderBy, getDoc, setDoc };
         window.isFirebaseReady = true; 
-        const firebaseReadyEvent = new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } });
-        document.dispatchEvent(firebaseReadyEvent);
+        document.dispatchEvent(new CustomEvent('firebaseReady', { detail: { db: window.db, functions: window.firestoreFunctions } }));
       } catch (error) {
         window.isFirebaseReady = false; 
-        const firebaseErrorEvent = new CustomEvent('firebaseError', { detail: { error: error } });
-        document.dispatchEvent(firebaseErrorEvent);
+        document.dispatchEvent(new CustomEvent('firebaseError', { detail: { error: error } }));
       }
     </script>
-    <!-- END: Firebase SDK -->
 
     <script defer src="utility.js"></script>
     <script defer src="manager.js"></script>
 </head>
-<body>
+<body class="manager-page-body">
     <div id="loading-overlay">
         <div class="loading-content"><div class="spinner"></div><p>Loading Manager Portal...</p></div>
     </div>
@@ -50,84 +37,67 @@
             <div class="dropdown-content">
                 <a href="index.html">Employee Portal</a>
                 <a href="manager.html">Manager Portal</a>
-                <a href="ads.html">Scrapyard Ads</a>
             </div>
         </div>
     </div>
 
     <div class="page-content-wrapper">
-        <header><img class="header-logo" src="logo.png" alt="Reapers Header"></header>
-
-        <div id="manager-login-container" class="content-block" style="max-width: 450px;">
+        <div id="manager-login-container" class="manager-container">
             <h1>Manager Access</h1>
             <form id="manager-login-form">
-                <div class="form-group">
-                    <label for="manager-password">Enter Manager Password:</label>
-                    <input type="password" id="manager-password" required>
-                </div>
+                <div class="form-group"><label for="manager-password">Enter Manager Password:</label><input type="password" id="manager-password" required></div>
                 <button type="submit">Login</button>
             </form>
             <p id="manager-login-error" class="error-message" style="display: none;">Invalid Manager Password.</p>
         </div>
 
-        <div id="manager-content" style="display: none; width: 100%; max-width: 1100px;">
-            <div id="employee-management-section" class="content-block">
-                <h2>Manage Employees</h2>
-                <form id="employee-form">
-                    <h3 id="employee-form-title" style="text-align: center;">Add New Employee</h3>
-                    <input type="hidden" id="edit-employee-id">
+        <div id="manager-content" class="manager-container" style="display: none;">
+            <h1>Manage Employees</h1>
+            
+            <form id="employee-form">
+                <h3>Add New Employee</h3>
+                <input type="hidden" id="edit-employee-id">
+                <div class="form-grid">
                     <div class="form-group"><label for="employee-name">Full Name:</label><input type="text" id="employee-name" placeholder="John Doe" required></div>
                     <div class="form-group"><label for="employee-id-number">Player ID (F6):</label><input type="text" id="employee-id-number" placeholder="e.g., 12345" required></div>
                     <div class="form-group"><label for="employee-dl-number">DL Number:</label><input type="text" id="employee-dl-number" placeholder="e.g., 1234567" required></div>
                     <div class="form-group"><label for="employee-bank-info">Bank Info:</label><input type="text" id="employee-bank-info" placeholder="e.g., 123-456" required></div>
-                    <div class="form-buttons">
-                        <button type="submit" id="save-employee-btn" class="action-button">Add Employee</button>
-                        <button type="button" id="cancel-edit-btn" class="action-button clear-button" style="display:none;">Cancel Edit</button>
-                    </div>
-                </form>
-                <hr>
-                <h3>Current Employees</h3>
-                <div id="employee-list" class="log-container"><p><i>Loading employees...</i></p></div>
-            </div>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" id="save-employee-btn" class="action-button">Add Employee</button>
+                    <button type="button" id="cancel-edit-btn" class="action-button clear-button" style="display:none;">Cancel</button>
+                </div>
+            </form>
 
-            <div id="password-management-section" class="content-block">
-                <h2>Manage Passwords</h2>
+            <hr>
+            <h3>Current Employees</h3>
+            <div id="employee-list" class="log-container"></div>
+            <hr>
+
+            <h3>Manage Passwords</h3>
+            <div class="password-forms-container">
                 <form id="employee-password-form">
-                    <div class="form-group">
-                        <label for="new-employee-password">Employee Password:</label>
-                        <input type="text" id="new-employee-password" required>
-                        <br>
-                        <button type="submit" class="action-button">Update</button>
-                    </div>
+                    <div class="form-group"><label for="new-employee-password">Employee Password:</label><input type="text" id="new-employee-password" required></div>
+                    <button type="submit" class="action-button">Update</button>
                 </form>
-                <p id="employee-password-status" style="display: none;"></p>
                 <form id="manager-password-form">
-                     <div class="form-group">
-                        <label for="new-manager-password">Manager Password:</label>
-                        <input type="text" id="new-manager-password" required>
-                        <button type="submit" class="action-button">Update</button>
-                    </div>
+                     <div class="form-group"><label for="new-manager-password">Manager Password:</label><input type="text" id="new-manager-password" required></div>
+                    <button type="submit" class="action-button">Update</button>
                 </form>
-                <p id="manager-password-status" style="display: none;"></p>
             </div>
+            <p id="employee-password-status" class="status-message-area" style="display: none;"></p>
+            <p id="manager-password-status" class="status-message-area" style="display: none;"></p>
+            <hr>
 
-            <div id="transaction-log-section" class="content-block">
-                <h2>POS Transaction Logs</h2>
-                <button id="export-transactions-btn" class="action-button" style="margin-bottom: 20px;">Export Transactions to CSV</button>
-                <div id="transaction-log-display" class="log-container"><p><i>Loading transaction logs...</i></p></div>
-            </div>
+            <h3>Employee Time Logs</h3>
+            <button id="export-time-logs-btn" class="action-button">Export to CSV</button>
+            <div id="time-log-display" class="log-container"></div>
+            <hr>
 
-            <div id="time-log-section" class="content-block">
-                <h2>Employee Time Logs</h2>
-                <button id="export-time-logs-btn" class="action-button" style="margin-bottom: 20px;">Export Time Logs to CSV</button>
-                <div id="time-log-display" class="log-container"><p><i>Loading time logs...</i></p></div>
-            </div>
+            <h3>POS Transaction Logs</h3>
+            <button id="export-transactions-btn" class="action-button">Export to CSV</button>
+            <div id="transaction-log-display" class="log-container"></div>
         </div>
     </div>
-    
-    <footer>
-        <p>Website designed by Preston Stone / Lilcrash15.</p>
-        <p>To be used by Reapers Scrapyard on BLRP only.</p>
-    </footer>
 </body>
 </html>
