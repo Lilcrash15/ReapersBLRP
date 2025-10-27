@@ -80,7 +80,6 @@ button, .action-button { padding: 8px 16px; font-size: 0.9rem; font-weight: 600;
 /* === LANDSCAPE MULTI-COLUMN POS LAYOUT (FINAL CORRECTED VERSION) === */
 #pos-main-container { flex-grow: 1; display: flex; gap: 15px; min-height: 0; }
 .pos-section { flex: 1; display: flex; flex-direction: column; background-color: rgba(10, 10, 20, 0.5); border-radius: 8px; border: 1px solid #444; padding: 10px; min-width: 0; }
-.pos-section-header { flex-shrink: 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #098ae6; margin-bottom: 10px; padding-bottom: 5px; }
 .pos-section-header h2 { font-size: 1.3rem; border: none; margin: 0; padding: 0; }
 
 /* THIS IS THE CRITICAL FIX */
@@ -90,6 +89,8 @@ button, .action-button { padding: 8px 16px; font-size: 0.9rem; font-weight: 600;
     display: grid;
     align-content: start;
     gap: 8px;
+    overflow-x: hidden;    /* prevent horizontal scroll */
+    overflow-y: auto;      /* vertical only */
 }
 /* Define specific column counts for each grid */
 #pos-buy-grid {
@@ -177,10 +178,6 @@ input[type=number] { -moz-appearance: textfield; }
     grid-template-columns: repeat(3, 1fr); /* was 4; one extra column makes it wider */
 }
 
-.pos-grid {
-    overflow-x: hidden;    /* prevent horizontal scroll */
-    overflow-y: auto;      /* vertical only */
-}
 body.manager-page-body {
     height: auto;
     min-height: 100vh;

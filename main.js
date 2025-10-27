@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: "Gold Ingot", buyPrice: 65, sellPrice: 75, crewPrice: 70 },
             { name: "Gold Nugget", buyPrice: 32, sellPrice: 0, crewPrice: 0 },
             { name: "Gold Rolex", buyPrice: 1200, sellPrice: 0, crewPrice: 0 },
+            { name: "Gunoil", buyPrice: 90, sellPrice: 110, crewPrice: 100 },
             { name: "Iron", buyPrice: 60, sellPrice: 70, crewPrice: 65 },
             { name: "Nitrate", buyPrice: 60, sellPrice: 70, crewPrice: 65 },
             { name: "Non-Act Phones", buyPrice: 250, sellPrice: 300, crewPrice: 275 },
